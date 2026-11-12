@@ -4,7 +4,7 @@ Companion notebooks for Book 1 of *Let Science Data Speak*. Notebooks are named 
 
 | Chapter | Notebook | What it does | Open |
 | --- | --- | --- | --- |
-| 5. Journal articles | [ch05_articles.ipynb](notebooks/ch05_articles.ipynb) | The chapter's first analysis with OpenAlex: search log, cleaning, first-author country, works per year, top countries and journals, share led from your region | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cognosx/let-science-data-speak/blob/main/book1/notebooks/ch05_articles.ipynb) |
+| 5. Journal articles | [ch05_articles.ipynb](notebooks/ch05_articles.ipynb) | The chapter's first analysis with OpenAlex: search log, cleaning, first-author country, works per year, top countries and journals, share led from your region, plus a recall check | [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cognosx/let-science-data-speak/blob/main/book1/notebooks/ch05_articles.ipynb) |
 
 More chapters will be added here (for example theses, citations, patents, funding and trials).
 
