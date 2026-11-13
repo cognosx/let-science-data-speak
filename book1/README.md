@@ -1,6 +1,6 @@
-# Book 1 — What Science Produces, and What Each Source Gets Wrong
+# Book 1 — Science as Data: What Research Produces, and What Each Source Gets Wrong
 
-Companion notebooks for Book 1 of *Let Science Data Speak*. Notebooks are named by chapter, so you can find the one that goes with what you are reading.
+Companion notebooks for *Science as Data*, Book 1 of the *Let Science Data Speak* series. Notebooks are named by chapter, so you can find the one that goes with what you are reading.
 
 | Chapter | Notebook | What it does | Open |
 | --- | --- | --- | --- |
@@ -12,4 +12,4 @@ More chapters will be added here (for example theses, citations, patents, fundin
 
 ## Cite
 
-Mbogning Fonkou MD. *Let Science Data Speak, Book 1: What Science Produces, and What Each Source Gets Wrong*. Companion notebooks. GitHub; 2026. https://github.com/cognosx/let-science-data-speak/tree/main/book1
+Mbogning Fonkou MD. *Science as Data: What Research Produces, and What Each Source Gets Wrong*. Let Science Data Speak, Book 1. Companion notebooks. GitHub; 2026. https://github.com/cognosx/let-science-data-speak/tree/main/book1

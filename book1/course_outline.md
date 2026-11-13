@@ -1,4 +1,4 @@
-# Course outline — Book 1: What Science Produces, and What Each Source Gets Wrong
+# Course outline — Science as Data (Let Science Data Speak, Book 1)
 
 A 12-week outline for a graduate seminar or a professional course (one 2–3 hour session a week). Each week pairs a chapter with its "Try it yourself" exercise. By the end, each participant has one cleaned, combined dataset on their own topic and two or three high-value questions ready for an article, a brief or a grant.
 
@@ -21,4 +21,4 @@ A 12-week outline for a graduate seminar or a professional course (one 2–3 hou
 
 **Assessment (suggested):** search log and dataset (30%), decision log and reporting checklist (20%), one-page brief for a decision-maker (30%), short reflection on what each source got wrong (20%).
 
-**Licence:** CC BY 4.0. Adapt freely, with credit to *Let Science Data Speak*.
+**Licence:** CC BY 4.0. Adapt freely, with credit to *Science as Data* (Let Science Data Speak, Book 1).

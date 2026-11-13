@@ -6,7 +6,7 @@ The books stay free of code and case data. These notebooks let you try the analy
 
 | Book | Folder | Notebooks |
 | --- | --- | --- |
-| Book 1 — *What Science Produces, and What Each Source Gets Wrong* | [book1/](book1/) | 1 (Chapter 5) |
+| Book 1 — *Science as Data: What Research Produces, and What Each Source Gets Wrong* | [book1/](book1/) | 1 (Chapter 5) |
 | Later books | coming | — |
 
 ## How to use
