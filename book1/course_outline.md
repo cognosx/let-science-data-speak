@@ -1,13 +1,13 @@
 # Course outline — Science as Data (Let Science Data Speak, Book 1)
 
-A 12-week outline for a graduate seminar or a professional course (one 2–3 hour session a week). Each week pairs a chapter with its "Try it yourself" exercise. By the end, each participant has one cleaned, combined dataset on their own topic and two or three high-value questions ready for an article, a brief or a grant.
+A 12-week outline for a graduate seminar or a professional course (one 2–3 hour session a week). Each week pairs a chapter with its spreadsheet analysis and, where available, a companion notebook. By the end, each participant has one cleaned, combined dataset on their own topic and two or three high-value questions ready for an article, a brief or a grant.
 
 **Audience:** master's and PhD students, researchers, research managers, librarians, funder staff. **Prerequisites:** a spreadsheet; no coding needed. The optional notebooks in this repository use Python.
 
 | Week | Chapters | Topic | In class | Homework (deliverable) |
 | --- | --- | --- | --- | --- |
-| 1 | Prologue, 1 | Why let science data speak | Discuss: how much of your field have you seen? | One-sentence research topic; Chapter 1 exercise |
-| 2 | 2 | The science of science in plain words | The five patterns; what counts can and cannot tell you | Chapter 2 exercise: the usual view against the data view |
+| 1 | Prologue, 1 | Why let science data speak | Discuss: how much of your field have you seen? | One-sentence research topic and the sources you usually use |
+| 2 | 2 | The science of science in plain words | The five patterns; what counts can and cannot tell you | One page: the usual view of your field against what a quick count shows |
 | 3 | 3, 4 | The map of outputs; where to get the data | Choose sources with the quality checklist | Chapter 3 table of the fourteen outputs for your topic |
 | 4 | 5 | Articles and preprints | Build the search; precision and recall | Article dataset with search log ([notebook](notebooks/ch05_articles.ipynb)) |
 | 5 | 6 | Theses and hidden literature | National repositories; what reviews miss | Add theses to your dataset |
