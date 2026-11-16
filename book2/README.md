@@ -26,13 +26,16 @@ The notebooks were run on real data on 10 November 2026 (PubMed, Europe PMC, Ope
 | 09_lab_to_patient | 9. From lab to patient |
 | 10_review_bridge | 10. From landscape to review |
 | 11_pipeline | 11. Pipelines that check themselves |
+| src/12_integrity_icite_events.py | 3 and 8: retraction check (T35), NIH iCite, before-and-after with a comparison (T36) |
 
 ## What is in this folder
 
 | Folder | What it holds | Book chapters |
 | --- | --- | --- |
 | `notebooks/`, `src/` | The malaria vaccine analysis, step by step | 1–11 |
-| `logs/trap_catalogue_v2.csv` | All 34 traps of Appendix A, as a spreadsheet | Appendix A |
+| `logs/trap_catalogue_v3.csv` | All 36 traps, with what you see, the check and the fix (the book prints a one-line index) | Appendix A |
+| `data/checks/` | Results of the integrity, iCite and event analyses of 16 November 2026. The Retraction Watch file itself is not stored here: the script downloads it | 3, 8 |
+| `evidence/` | Study-by-study tables of published AI performance, dated, moved from the printed chapters | 3, 5 |
 | `other_topics/` | Each chapter's method on three other topics: the respiratory microbiome, phage therapy and AI in research (moved from the printed chapters) | 1–11 |
 | `cases/` | Code and data for those three topics | 1–11 |
 | `code_checks/` | The short code check from each chapter | 1–11 |
