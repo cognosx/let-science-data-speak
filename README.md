@@ -7,8 +7,8 @@ Book 1 stays free of code and case data. Books 2 and 3 keep their principles and
 | Book | Folder | Notebooks |
 | --- | --- | --- |
 | Book 1 — *Science as Data: What Research Produces, and What Each Source Gets Wrong* | [book1/](book1/) | 1 (Chapter 5) |
-| Book 2 — *Make Science Data Speak: Mapping and Measuring Science with Open Data and AI You Can Check* (draft) | [book2/](book2/) | 11 (Chapters 1–11), plus agent runs, other topics and prompts |
-| Book 3 — *Make It Count: Turning a Research Landscape into Papers, Policy Briefs, Datasets and Impact* (draft) | [book3/](book3/) | Templates, exercises and publishing lists |
+| Book 2 — *Science You Can Check: Mapping and Measuring Research with Open Data and AI* (draft) | [book2/](book2/) | 11 (Chapters 1–11), plus agent runs, other topics and prompts |
+| Book 3 — *Science That Serves: Turning Research Findings into Papers, Policy Briefs, Datasets and Public Impact* (draft) | [book3/](book3/) | Templates, exercises and publishing lists |
 
 ## How to use
 

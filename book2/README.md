@@ -1,6 +1,6 @@
-# Book 2 — Make Science Data Speak: companion files
+# Book 2 — Science You Can Check: companion files
 
-Companion files for *Make Science Data Speak: Mapping and Measuring Science with Open Data and AI You Can Check* (Let Science Data Speak, Book 2), by Maxime Descartes Mbogning Fonkou. The book keeps principles, traps and checks; the material here changes faster, so it lives here with dates.
+Companion files for *Science You Can Check: Mapping and Measuring Research with Open Data and AI* (Let Science Data Speak, Book 2), by Maxime Descartes Mbogning Fonkou. The book keeps principles, traps and checks; the material here changes faster, so it lives here with dates.
 
 The notebooks were run on real data on 10 November 2026 (PubMed, Europe PMC, OpenAlex, ROR, World Bank, ClinicalTrials.gov). Counts will differ slightly if you run them later, because the databases keep growing.
 

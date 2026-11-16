@@ -1,6 +1,6 @@
-# Book 3 — Make It Count: companion files
+# Book 3 — Science That Serves: companion files
 
-Companion files for *Make It Count: Turning a Research Landscape into Papers, Policy Briefs, Datasets and Impact* (Let Science Data Speak, Book 3), by Maxime Descartes Mbogning Fonkou.
+Companion files for *Science That Serves: Turning Research Findings into Papers, Policy Briefs, Datasets and Public Impact* (Let Science Data Speak, Book 3), by Maxime Descartes Mbogning Fonkou.
 
 The book keeps the release pipeline, the principles and the checks. Templates, exercises and lists that change often live here, with dates.
 
