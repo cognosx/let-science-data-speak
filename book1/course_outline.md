@@ -17,7 +17,7 @@ A 12-week outline for a graduate seminar or a professional course (one 2–3 hou
 | 9 | 11, 12 | Datasets, software, policy, news, peer review | Hidden outputs and their limits | One output you had never used, added to your dataset |
 | 10 | 13 | The people of science | Ethics first; leadership and mobility | Leadership by region, reported for groups only |
 | 11 | 14 | Combining and enriching data | Keys, units, match rates, reporting checklist | Combined dataset with a decision log |
-| 12 | 15 | High-impact questions | Counts are not causes; objective formula | Two or three questions, one objective, one-page brief |
+| 12 | 15, 16 | Working with AI; high-impact questions | What AI gets wrong, source by source; counts are not causes; objective formula | Two or three questions, one objective, one-page brief |
 
 **Assessment (suggested):** search log and dataset (30%), decision log and reporting checklist (20%), one-page brief for a decision-maker (30%), short reflection on what each source got wrong (20%).
 
