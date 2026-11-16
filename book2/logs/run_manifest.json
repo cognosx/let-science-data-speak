@@ -1,0 +1,25 @@
+{
+ "environment": {
+  "pandas": "3.0.5",
+  "numpy": "2.5.3",
+  "biopython": "1.88",
+  "rapidfuzz": "3.14.6",
+  "sentence-transformers": "6.2.0",
+  "bertopic": "0.17.4",
+  "networkx": "3.7",
+  "statsmodels": "0.15.0",
+  "python": "3.13.18"
+ },
+ "final_files_sha256_12": {
+  "country_edges_2000_2026.csv": "d7381501ea43",
+  "country_edges_2015_2026.csv": "60a16881aff0",
+  "entities.parquet": "4b3b1e4b35ba",
+  "openalex_enrich.parquet": "d13634d57709",
+  "paper_country.parquet": "de77fbb647f8",
+  "paper_country_openalex.parquet": "d4d0a4b87538",
+  "papers.parquet": "03a06b8943cc",
+  "topics.parquet": "738f84aff26c",
+  "trial_paper_links.csv": "996c00aa4010",
+  "trials.parquet": "553697d95cec"
+ }
+}

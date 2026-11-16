@@ -1,0 +1,5 @@
+{
+ "date": "2026-11-10",
+ "term": "nov[ti] AND (sputum[tiab] OR respiratory[tiab] OR bronchoalveolar[tiab] OR nasopharyn*[tiab] OR oropharyn*[tiab] OR \"cystic fibrosis\"[tiab] OR bronchiectasis[tiab] OR \"lower respiratory\"[tiab]) AND (human[tiab] OR patient*[tiab])",
+ "n": 193
+}

@@ -1,0 +1,11 @@
+{
+ "source": "EPO Linked Open Data SPARQL endpoint",
+ "licence": "CC BY 4.0",
+ "date": "2026-11-10",
+ "classes": [
+  "A61K35/76",
+  "C12N7/00",
+  "C12N7/01"
+ ],
+ "rows": 17972
+}

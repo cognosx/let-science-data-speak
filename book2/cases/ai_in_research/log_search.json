@@ -1,0 +1,6 @@
+{
+ "date": "2026-11-10",
+ "query": "(TITLE:\"ChatGPT\" OR TITLE:\"large language model\" OR TITLE:\"large language models\" OR TITLE:\"GPT-4\" OR TITLE:\"LLM\" OR TITLE:\"LLMs\" OR ABSTRACT:\"ChatGPT\" OR ABSTRACT:\"large language model\" OR ABSTRACT:\"large language models\") AND (PUB_YEAR:[2023 TO 2025]) AND SRC:MED",
+ "hitCount": 13872,
+ "rows": 13872
+}

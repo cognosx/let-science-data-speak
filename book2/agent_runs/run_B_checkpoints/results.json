@@ -1,0 +1,4249 @@
+{
+ "unit": "one scholarly work (a preprint and its journal version count once); shares are fractions of papers, whole counting, one first and one last author per paper",
+ "unique_works": 23594,
+ "dedup": {
+  "records_in": {
+   "openalex": 21845,
+   "europepmc": 13671,
+   "pubmed": 12301
+  },
+  "records_total": 47817,
+  "invalid_doi_dropped": {
+   "pubmed": 0,
+   "europepmc": 3,
+   "openalex": 7
+  },
+  "pmcid_blocked_pmid_conflict": 3,
+  "doi_pairs_blocked_pmid_conflict": 326,
+  "doi_pairs_blocked_title_disagrees": 2,
+  "pass2_blocked_pmid_conflict": 94,
+  "pass2_short_title_groups_not_merged": 32,
+  "uncertain_band_pairs_not_merged": 541,
+  "near_identical_blocked_by_pmid_conflict": 120,
+  "same_title_year_author_missing_or_different_not_merged_groups": 263,
+  "passes": [
+   {
+    "pass": "1a identifier: PMID",
+    "removed": 23183,
+    "unique_after": 24634
+   },
+   {
+    "pass": "1b identifier: PMCID",
+    "removed": 0,
+    "unique_after": 24634
+   },
+   {
+    "pass": "1c identifier: DOI",
+    "removed": 248,
+    "unique_after": 24386
+   },
+   {
+    "pass": "2 exact title + year + first author",
+    "removed": 498,
+    "unique_after": 23888
+   },
+   {
+    "pass": "3 near-identical titles (exact title/adjacent year, or similarity >= 0.95)",
+    "removed": 294,
+    "unique_after": 23594,
+    "of_which_exact_title_adjacent_year": 214,
+    "of_which_fuzzy_ge_0.95": 80
+   }
+  ],
+  "unique_works": 23594,
+  "works_with_more_than_one_pmid": 54,
+  "max_pmids_in_cluster": 3,
+  "cluster_size_dist": {
+   "1": 11050,
+   "2": 1275,
+   "3": 10958,
+   "4": 234,
+   "5": 65,
+   "6": 6,
+   "7": 4,
+   "8": 1,
+   "10": 1
+  }
+ },
+ "works_by_source_combination": {
+  "europepmc+openalex+pubmed": 11209,
+  "openalex": 9553,
+  "europepmc": 977,
+  "europepmc+openalex": 815,
+  "pubmed": 675,
+  "europepmc+pubmed": 193,
+  "openalex+pubmed": 172
+ },
+ "papers_all_years": 19955,
+ "papers_2000_2026": 16458,
+ "papers_by_period": {
+  "2000-2009": 4150,
+  "2010-2019": 6531,
+  "2020-2026": 5777
+ },
+ "non_paper_works_excluded": 3639,
+ "works_without_year": 24,
+ "B_completeness": {
+  "year_known_by_source_records": {
+   "pubmed": 0.9981,
+   "europepmc": 0.9996,
+   "openalex": 0.9991
+  },
+  "year_known_works": 0.999,
+  "by_year": [
+   {
+    "year": 2000,
+    "papers": 317,
+    "first_pubmed": 0.853,
+    "first_openalex": 0.757,
+    "first_europepmc": 0.0,
+    "first_combined": 0.767,
+    "last_pubmed": 0.109,
+    "last_openalex": 0.69,
+    "last_europepmc": 0.0,
+    "last_combined": 0.647
+   },
+   {
+    "year": 2001,
+    "papers": 352,
+    "first_pubmed": 0.894,
+    "first_openalex": 0.69,
+    "first_europepmc": 0.0,
+    "first_combined": 0.716,
+    "last_pubmed": 0.096,
+    "last_openalex": 0.606,
+    "last_europepmc": 0.0,
+    "last_combined": 0.585
+   },
+   {
+    "year": 2002,
+    "papers": 350,
+    "first_pubmed": 0.914,
+    "first_openalex": 0.74,
+    "first_europepmc": 0.0,
+    "first_combined": 0.763,
+    "last_pubmed": 0.111,
+    "last_openalex": 0.673,
+    "last_europepmc": 0.0,
+    "last_combined": 0.629
+   },
+   {
+    "year": 2003,
+    "papers": 327,
+    "first_pubmed": 0.921,
+    "first_openalex": 0.802,
+    "first_europepmc": 0.0,
+    "first_combined": 0.795,
+    "last_pubmed": 0.098,
+    "last_openalex": 0.743,
+    "last_europepmc": 0.0,
+    "last_combined": 0.691
+   },
+   {
+    "year": 2004,
+    "papers": 398,
+    "first_pubmed": 0.944,
+    "first_openalex": 0.738,
+    "first_europepmc": 0.0,
+    "first_combined": 0.769,
+    "last_pubmed": 0.088,
+    "last_openalex": 0.7,
+    "last_europepmc": 0.0,
+    "last_combined": 0.661
+   },
+   {
+    "year": 2005,
+    "papers": 442,
+    "first_pubmed": 0.923,
+    "first_openalex": 0.78,
+    "first_europepmc": 0.0,
+    "first_combined": 0.776,
+    "last_pubmed": 0.092,
+    "last_openalex": 0.738,
+    "last_europepmc": 0.0,
+    "last_combined": 0.695
+   },
+   {
+    "year": 2006,
+    "papers": 414,
+    "first_pubmed": 0.941,
+    "first_openalex": 0.758,
+    "first_europepmc": 0.0,
+    "first_combined": 0.797,
+    "last_pubmed": 0.085,
+    "last_openalex": 0.735,
+    "last_europepmc": 0.0,
+    "last_combined": 0.698
+   },
+   {
+    "year": 2007,
+    "papers": 521,
+    "first_pubmed": 0.913,
+    "first_openalex": 0.8,
+    "first_europepmc": 0.0,
+    "first_combined": 0.816,
+    "last_pubmed": 0.11,
+    "last_openalex": 0.759,
+    "last_europepmc": 0.0,
+    "last_combined": 0.72
+   },
+   {
+    "year": 2008,
+    "papers": 513,
+    "first_pubmed": 0.942,
+    "first_openalex": 0.792,
+    "first_europepmc": 0.0,
+    "first_combined": 0.805,
+    "last_pubmed": 0.101,
+    "last_openalex": 0.751,
+    "last_europepmc": 0.0,
+    "last_combined": 0.715
+   },
+   {
+    "year": 2009,
+    "papers": 516,
+    "first_pubmed": 0.923,
+    "first_openalex": 0.781,
+    "first_europepmc": 0.0,
+    "first_combined": 0.787,
+    "last_pubmed": 0.104,
+    "last_openalex": 0.744,
+    "last_europepmc": 0.0,
+    "last_combined": 0.719
+   },
+   {
+    "year": 2010,
+    "papers": 594,
+    "first_pubmed": 0.939,
+    "first_openalex": 0.822,
+    "first_europepmc": 0.0,
+    "first_combined": 0.833,
+    "last_pubmed": 0.066,
+    "last_openalex": 0.772,
+    "last_europepmc": 0.0,
+    "last_combined": 0.746
+   },
+   {
+    "year": 2011,
+    "papers": 595,
+    "first_pubmed": 0.923,
+    "first_openalex": 0.802,
+    "first_europepmc": 0.0,
+    "first_combined": 0.817,
+    "last_pubmed": 0.06,
+    "last_openalex": 0.774,
+    "last_europepmc": 0.0,
+    "last_combined": 0.751
+   },
+   {
+    "year": 2012,
+    "papers": 598,
+    "first_pubmed": 0.944,
+    "first_openalex": 0.808,
+    "first_europepmc": 0.0,
+    "first_combined": 0.818,
+    "last_pubmed": 0.054,
+    "last_openalex": 0.768,
+    "last_europepmc": 0.0,
+    "last_combined": 0.746
+   },
+   {
+    "year": 2013,
+    "papers": 640,
+    "first_pubmed": 0.906,
+    "first_openalex": 0.779,
+    "first_europepmc": 0.0,
+    "first_combined": 0.798,
+    "last_pubmed": 0.123,
+    "last_openalex": 0.755,
+    "last_europepmc": 0.0,
+    "last_combined": 0.736
+   },
+   {
+    "year": 2014,
+    "papers": 655,
+    "first_pubmed": 0.795,
+    "first_openalex": 0.792,
+    "first_europepmc": 0.0,
+    "first_combined": 0.797,
+    "last_pubmed": 0.618,
+    "last_openalex": 0.792,
+    "last_europepmc": 0.0,
+    "last_combined": 0.792
+   },
+   {
+    "year": 2015,
+    "papers": 733,
+    "first_pubmed": 0.912,
+    "first_openalex": 0.782,
+    "first_europepmc": 0.0,
+    "first_combined": 0.794,
+    "last_pubmed": 0.833,
+    "last_openalex": 0.775,
+    "last_europepmc": 0.0,
+    "last_combined": 0.782
+   },
+   {
+    "year": 2016,
+    "papers": 684,
+    "first_pubmed": 0.925,
+    "first_openalex": 0.813,
+    "first_europepmc": 0.0,
+    "first_combined": 0.811,
+    "last_pubmed": 0.9,
+    "last_openalex": 0.802,
+    "last_europepmc": 0.0,
+    "last_combined": 0.806
+   },
+   {
+    "year": 2017,
+    "papers": 719,
+    "first_pubmed": 0.95,
+    "first_openalex": 0.825,
+    "first_europepmc": 0.0,
+    "first_combined": 0.825,
+    "last_pubmed": 0.93,
+    "last_openalex": 0.807,
+    "last_europepmc": 0.0,
+    "last_combined": 0.815
+   },
+   {
+    "year": 2018,
+    "papers": 639,
+    "first_pubmed": 0.966,
+    "first_openalex": 0.868,
+    "first_europepmc": 0.0,
+    "first_combined": 0.859,
+    "last_pubmed": 0.958,
+    "last_openalex": 0.862,
+    "last_europepmc": 0.0,
+    "last_combined": 0.848
+   },
+   {
+    "year": 2019,
+    "papers": 674,
+    "first_pubmed": 0.966,
+    "first_openalex": 0.83,
+    "first_europepmc": 0.0,
+    "first_combined": 0.829,
+    "last_pubmed": 0.958,
+    "last_openalex": 0.827,
+    "last_europepmc": 0.0,
+    "last_combined": 0.831
+   },
+   {
+    "year": 2020,
+    "papers": 767,
+    "first_pubmed": 0.981,
+    "first_openalex": 0.835,
+    "first_europepmc": 0.0,
+    "first_combined": 0.837,
+    "last_pubmed": 0.967,
+    "last_openalex": 0.841,
+    "last_europepmc": 0.0,
+    "last_combined": 0.834
+   },
+   {
+    "year": 2021,
+    "papers": 770,
+    "first_pubmed": 0.936,
+    "first_openalex": 0.818,
+    "first_europepmc": 0.0,
+    "first_combined": 0.813,
+    "last_pubmed": 0.921,
+    "last_openalex": 0.818,
+    "last_europepmc": 0.0,
+    "last_combined": 0.812
+   },
+   {
+    "year": 2022,
+    "papers": 788,
+    "first_pubmed": 0.959,
+    "first_openalex": 0.864,
+    "first_europepmc": 0.0,
+    "first_combined": 0.86,
+    "last_pubmed": 0.945,
+    "last_openalex": 0.856,
+    "last_europepmc": 0.0,
+    "last_combined": 0.852
+   },
+   {
+    "year": 2023,
+    "papers": 769,
+    "first_pubmed": 0.945,
+    "first_openalex": 0.848,
+    "first_europepmc": 0.0,
+    "first_combined": 0.828,
+    "last_pubmed": 0.938,
+    "last_openalex": 0.842,
+    "last_europepmc": 0.0,
+    "last_combined": 0.824
+   },
+   {
+    "year": 2024,
+    "papers": 785,
+    "first_pubmed": 0.951,
+    "first_openalex": 0.841,
+    "first_europepmc": 0.0,
+    "first_combined": 0.822,
+    "last_pubmed": 0.926,
+    "last_openalex": 0.841,
+    "last_europepmc": 0.0,
+    "last_combined": 0.818
+   },
+   {
+    "year": 2025,
+    "papers": 929,
+    "first_pubmed": 0.977,
+    "first_openalex": 0.856,
+    "first_europepmc": 0.0,
+    "first_combined": 0.833,
+    "last_pubmed": 0.964,
+    "last_openalex": 0.855,
+    "last_europepmc": 0.0,
+    "last_combined": 0.832
+   },
+   {
+    "year": 2026,
+    "papers": 969,
+    "first_pubmed": 0.963,
+    "first_openalex": 0.797,
+    "first_europepmc": 0.0,
+    "first_combined": 0.81,
+    "last_pubmed": 0.94,
+    "last_openalex": 0.815,
+    "last_europepmc": 0.0,
+    "last_combined": 0.819
+   }
+  ],
+  "by_period": {
+   "2000-2009": {
+    "papers": 4150,
+    "first": {
+     "pubmed_records (n=2703)": 0.919,
+     "openalex_records (n=3856)": 0.767,
+     "europepmc_records (n=2579)": 0.0,
+     "combined_all_papers": 0.782,
+     "filled_from": {
+      "pubmed": 2484,
+      "openalex": 761
+     }
+    },
+    "last": {
+     "pubmed_records (n=2703)": 0.1,
+     "openalex_records (n=3856)": 0.719,
+     "europepmc_records (n=2579)": 0.0,
+     "combined_all_papers": 0.682,
+     "filled_from": {
+      "openalex": 2560,
+      "pubmed": 269
+     }
+    }
+   },
+   "2010-2019": {
+    "papers": 6531,
+    "first": {
+     "pubmed_records (n=4079)": 0.923,
+     "openalex_records (n=6232)": 0.812,
+     "europepmc_records (n=4053)": 0.0,
+     "combined_all_papers": 0.818,
+     "filled_from": {
+      "pubmed": 3763,
+      "openalex": 1578
+     }
+    },
+    "last": {
+     "pubmed_records (n=4079)": 0.558,
+     "openalex_records (n=6232)": 0.794,
+     "europepmc_records (n=4053)": 0.0,
+     "combined_all_papers": 0.787,
+     "filled_from": {
+      "openalex": 2863,
+      "pubmed": 2275
+     }
+    }
+   },
+   "2020-2026": {
+    "papers": 5777,
+    "first": {
+     "pubmed_records (n=3189)": 0.959,
+     "openalex_records (n=5389)": 0.836,
+     "europepmc_records (n=3494)": 0.0,
+     "combined_all_papers": 0.829,
+     "filled_from": {
+      "pubmed": 3057,
+      "openalex": 1730
+     }
+    },
+    "last": {
+     "pubmed_records (n=3189)": 0.943,
+     "openalex_records (n=5389)": 0.838,
+     "europepmc_records (n=3494)": 0.0,
+     "combined_all_papers": 0.827,
+     "filled_from": {
+      "pubmed": 3007,
+      "openalex": 1772
+     }
+    }
+   }
+  },
+  "years_below_half_combined": {
+   "first": [],
+   "last": []
+  },
+  "gate": {
+   "2000-2009": {
+    "first": "PASS",
+    "last": "PASS"
+   },
+   "2010-2019": {
+    "first": "PASS",
+    "last": "PASS"
+   },
+   "2020-2026": {
+    "first": "PASS",
+    "last": "PASS"
+   }
+  },
+  "combined_known_by_in_pubmed": {
+   "False": {
+    "first": 0.588,
+    "last": 0.583
+   },
+   "True": {
+    "first": 0.959,
+    "last": 0.899
+   }
+  }
+ },
+ "main_ssa_shares": {
+  "2000-2009": {
+   "papers": 4150,
+   "first": {
+    "k": 249,
+    "n": 3245,
+    "pct": 7.7,
+    "ci95": [
+     6.8,
+     8.6
+    ],
+    "known_share": 0.782,
+    "floor_if_all_unknown_non_SSA_pct": 6.0
+   },
+   "last": {
+    "k": 128,
+    "n": 2829,
+    "pct": 4.5,
+    "ci95": [
+     3.8,
+     5.4
+    ],
+    "known_share": 0.682,
+    "floor_if_all_unknown_non_SSA_pct": 3.1
+   }
+  },
+  "2010-2019": {
+   "papers": 6531,
+   "first": {
+    "k": 545,
+    "n": 5341,
+    "pct": 10.2,
+    "ci95": [
+     9.4,
+     11.0
+    ],
+    "known_share": 0.818,
+    "floor_if_all_unknown_non_SSA_pct": 8.3
+   },
+   "last": {
+    "k": 415,
+    "n": 5138,
+    "pct": 8.1,
+    "ci95": [
+     7.4,
+     8.9
+    ],
+    "known_share": 0.787,
+    "floor_if_all_unknown_non_SSA_pct": 6.4
+   }
+  },
+  "2020-2026": {
+   "papers": 5777,
+   "first": {
+    "k": 1060,
+    "n": 4787,
+    "pct": 22.1,
+    "ci95": [
+     21.0,
+     23.3
+    ],
+    "known_share": 0.829,
+    "floor_if_all_unknown_non_SSA_pct": 18.3
+   },
+   "last": {
+    "k": 932,
+    "n": 4779,
+    "pct": 19.5,
+    "ci95": [
+     18.4,
+     20.6
+    ],
+    "known_share": 0.827,
+    "floor_if_all_unknown_non_SSA_pct": 16.1
+   }
+  }
+ },
+ "main_change_2000s_to_2020s": {
+  "first": {
+   "diff_pp": 14.5,
+   "ci95": [
+    13.0,
+    15.9
+   ]
+  },
+  "last": {
+   "diff_pp": 15.0,
+   "ci95": [
+    13.6,
+    16.3
+   ]
+  }
+ },
+ "main_change_2010s_to_2020s": {
+  "first": {
+   "diff_pp": 11.9,
+   "ci95": [
+    10.5,
+    13.4
+   ]
+  },
+  "last": {
+   "diff_pp": 11.4,
+   "ci95": [
+    10.1,
+    12.8
+   ]
+  }
+ },
+ "income_first_author_at_publication_year": {
+  "2000-2009": {
+   "papers": 4150,
+   "known_share": 0.782,
+   "Low income": {
+    "k": 290,
+    "n": 3245,
+    "pct": 8.9,
+    "ci95": [
+     8.0,
+     10.0
+    ]
+   },
+   "Lower middle income": {
+    "k": 388,
+    "n": 3245,
+    "pct": 12.0,
+    "ci95": [
+     10.9,
+     13.1
+    ]
+   },
+   "Upper middle income": {
+    "k": 152,
+    "n": 3245,
+    "pct": 4.7,
+    "ci95": [
+     4.0,
+     5.5
+    ]
+   },
+   "High income": {
+    "k": 2415,
+    "n": 3245,
+    "pct": 74.4,
+    "ci95": [
+     72.9,
+     75.9
+    ]
+   }
+  },
+  "2010-2019": {
+   "papers": 6531,
+   "known_share": 0.818,
+   "Low income": {
+    "k": 253,
+    "n": 5341,
+    "pct": 4.7,
+    "ci95": [
+     4.2,
+     5.3
+    ]
+   },
+   "Lower middle income": {
+    "k": 642,
+    "n": 5341,
+    "pct": 12.0,
+    "ci95": [
+     11.2,
+     12.9
+    ]
+   },
+   "Upper middle income": {
+    "k": 719,
+    "n": 5341,
+    "pct": 13.5,
+    "ci95": [
+     12.6,
+     14.4
+    ]
+   },
+   "High income": {
+    "k": 3727,
+    "n": 5341,
+    "pct": 69.8,
+    "ci95": [
+     68.5,
+     71.0
+    ]
+   }
+  },
+  "2020-2026": {
+   "papers": 5777,
+   "known_share": 0.829,
+   "Low income": {
+    "k": 314,
+    "n": 4787,
+    "pct": 6.6,
+    "ci95": [
+     5.9,
+     7.3
+    ]
+   },
+   "Lower middle income": {
+    "k": 1313,
+    "n": 4787,
+    "pct": 27.4,
+    "ci95": [
+     26.2,
+     28.7
+    ]
+   },
+   "Upper middle income": {
+    "k": 702,
+    "n": 4787,
+    "pct": 14.7,
+    "ci95": [
+     13.7,
+     15.7
+    ]
+   },
+   "High income": {
+    "k": 2458,
+    "n": 4787,
+    "pct": 51.3,
+    "ci95": [
+     49.9,
+     52.8
+    ]
+   }
+  },
+  "2000-2026": {
+   "papers": 16458,
+   "known_share": 0.813,
+   "Low income": {
+    "k": 857,
+    "n": 13373,
+    "pct": 6.4,
+    "ci95": [
+     6.0,
+     6.8
+    ]
+   },
+   "Lower middle income": {
+    "k": 2343,
+    "n": 13373,
+    "pct": 17.5,
+    "ci95": [
+     16.9,
+     18.2
+    ]
+   },
+   "Upper middle income": {
+    "k": 1573,
+    "n": 13373,
+    "pct": 11.8,
+    "ci95": [
+     11.2,
+     12.3
+    ]
+   },
+   "High income": {
+    "k": 8600,
+    "n": 13373,
+    "pct": 64.3,
+    "ci95": [
+     63.5,
+     65.1
+    ]
+   }
+  }
+ },
+ "income_first_author_current_classification": {
+  "2000-2009": {
+   "papers": 4150,
+   "known_share": 0.78,
+   "Low income": {
+    "k": 78,
+    "n": 3238,
+    "pct": 2.4,
+    "ci95": [
+     1.9,
+     3.0
+    ]
+   },
+   "Lower middle income": {
+    "k": 318,
+    "n": 3238,
+    "pct": 9.8,
+    "ci95": [
+     8.8,
+     10.9
+    ]
+   },
+   "Upper middle income": {
+    "k": 409,
+    "n": 3238,
+    "pct": 12.6,
+    "ci95": [
+     11.5,
+     13.8
+    ]
+   },
+   "High income": {
+    "k": 2433,
+    "n": 3238,
+    "pct": 75.1,
+    "ci95": [
+     73.6,
+     76.6
+    ]
+   }
+  },
+  "2010-2019": {
+   "papers": 6531,
+   "known_share": 0.817,
+   "Low income": {
+    "k": 168,
+    "n": 5335,
+    "pct": 3.1,
+    "ci95": [
+     2.7,
+     3.7
+    ]
+   },
+   "Lower middle income": {
+    "k": 705,
+    "n": 5335,
+    "pct": 13.2,
+    "ci95": [
+     12.3,
+     14.1
+    ]
+   },
+   "Upper middle income": {
+    "k": 726,
+    "n": 5335,
+    "pct": 13.6,
+    "ci95": [
+     12.7,
+     14.6
+    ]
+   },
+   "High income": {
+    "k": 3736,
+    "n": 5335,
+    "pct": 70.0,
+    "ci95": [
+     68.8,
+     71.2
+    ]
+   }
+  },
+  "2020-2026": {
+   "papers": 5777,
+   "known_share": 0.828,
+   "Low income": {
+    "k": 312,
+    "n": 4782,
+    "pct": 6.5,
+    "ci95": [
+     5.9,
+     7.3
+    ]
+   },
+   "Lower middle income": {
+    "k": 1250,
+    "n": 4782,
+    "pct": 26.1,
+    "ci95": [
+     24.9,
+     27.4
+    ]
+   },
+   "Upper middle income": {
+    "k": 755,
+    "n": 4782,
+    "pct": 15.8,
+    "ci95": [
+     14.8,
+     16.8
+    ]
+   },
+   "High income": {
+    "k": 2465,
+    "n": 4782,
+    "pct": 51.5,
+    "ci95": [
+     50.1,
+     53.0
+    ]
+   }
+  },
+  "2000-2026": {
+   "papers": 16458,
+   "known_share": 0.811,
+   "Low income": {
+    "k": 558,
+    "n": 13355,
+    "pct": 4.2,
+    "ci95": [
+     3.9,
+     4.5
+    ]
+   },
+   "Lower middle income": {
+    "k": 2273,
+    "n": 13355,
+    "pct": 17.0,
+    "ci95": [
+     16.4,
+     17.7
+    ]
+   },
+   "Upper middle income": {
+    "k": 1890,
+    "n": 13355,
+    "pct": 14.2,
+    "ci95": [
+     13.6,
+     14.8
+    ]
+   },
+   "High income": {
+    "k": 8634,
+    "n": 13355,
+    "pct": 64.6,
+    "ci95": [
+     63.8,
+     65.5
+    ]
+   }
+  }
+ },
+ "top_first_author_countries_by_period": {
+  "2000-2009": {
+   "USA": 1018,
+   "GBR": 348,
+   "AUS": 215,
+   "FRA": 163,
+   "IND": 139,
+   "CHE": 136,
+   "COL": 113,
+   "CHN": 105,
+   "DEU": 87,
+   "BRA": 85
+  },
+  "2010-2019": {
+   "USA": 1489,
+   "GBR": 493,
+   "AUS": 373,
+   "IND": 300,
+   "FRA": 168,
+   "DEU": 161,
+   "CHN": 158,
+   "CHE": 148,
+   "JPN": 135,
+   "BRA": 134
+  },
+  "2020-2026": {
+   "USA": 1029,
+   "IND": 405,
+   "NGA": 295,
+   "GBR": 281,
+   "AUS": 207,
+   "CHN": 190,
+   "BRA": 133,
+   "KEN": 116,
+   "GHA": 113,
+   "DEU": 96
+  }
+ },
+ "top_ssa_first_author_countries_by_period": {
+  "2000-2009": {
+   "KEN": 51,
+   "NGA": 24,
+   "GMB": 22,
+   "TZA": 22,
+   "SEN": 16,
+   "MLI": 16,
+   "ZAF": 16,
+   "GHA": 15
+  },
+  "2010-2019": {
+   "KEN": 89,
+   "NGA": 85,
+   "GHA": 57,
+   "ETH": 33,
+   "ZAF": 33,
+   "TZA": 32,
+   "BFA": 29,
+   "UGA": 28
+  },
+  "2020-2026": {
+   "NGA": 295,
+   "KEN": 116,
+   "GHA": 113,
+   "UGA": 79,
+   "CMR": 64,
+   "ZAF": 54,
+   "ETH": 54,
+   "TZA": 36
+  }
+ },
+ "top_ssa_last_author_countries_by_period": {
+  "2000-2009": {
+   "KEN": 23,
+   "NGA": 19,
+   "ZAF": 16,
+   "MLI": 12,
+   "TZA": 10,
+   "GHA": 8,
+   "BFA": 6,
+   "GMB": 5
+  },
+  "2010-2019": {
+   "NGA": 68,
+   "KEN": 61,
+   "GHA": 51,
+   "ETH": 29,
+   "ZAF": 28,
+   "TZA": 25,
+   "CMR": 22,
+   "BFA": 21
+  },
+  "2020-2026": {
+   "NGA": 262,
+   "KEN": 101,
+   "GHA": 99,
+   "UGA": 62,
+   "CMR": 54,
+   "ZAF": 52,
+   "ETH": 50,
+   "TZA": 30
+  }
+ },
+ "E_start_year": {
+  "annual_trend_test": {
+   "first_1990-2026": {
+    "z": 23.13,
+    "p_two_sided": 2.2e-118,
+    "n": 15016,
+    "direction": "up"
+   },
+   "first_1990-2025": {
+    "z": 18.66,
+    "p_two_sided": 9.9e-78,
+    "n": 14231,
+    "direction": "up"
+   },
+   "first_1995-2026": {
+    "z": 22.29,
+    "p_two_sided": 4.7e-110,
+    "n": 14250,
+    "direction": "up"
+   },
+   "first_1995-2025": {
+    "z": 17.66,
+    "p_two_sided": 8.8e-70,
+    "n": 13465,
+    "direction": "up"
+   },
+   "first_2000-2026": {
+    "z": 21.9,
+    "p_two_sided": 2.7e-106,
+    "n": 13373,
+    "direction": "up"
+   },
+   "first_2000-2025": {
+    "z": 17.17,
+    "p_two_sided": 4.2e-66,
+    "n": 12588,
+    "direction": "up"
+   },
+   "first_2005-2026": {
+    "z": 19.33,
+    "p_two_sided": 2.9e-83,
+    "n": 12045,
+    "direction": "up"
+   },
+   "first_2005-2025": {
+    "z": 14.42,
+    "p_two_sided": 4.1e-47,
+    "n": 11260,
+    "direction": "up"
+   },
+   "first_2010-2026": {
+    "z": 19.22,
+    "p_two_sided": 2.5e-82,
+    "n": 10128,
+    "direction": "up"
+   },
+   "first_2010-2025": {
+    "z": 14.37,
+    "p_two_sided": 8.3e-47,
+    "n": 9343,
+    "direction": "up"
+   },
+   "first_2015-2026": {
+    "z": 17.23,
+    "p_two_sided": 1.7e-66,
+    "n": 7625,
+    "direction": "up"
+   },
+   "first_2015-2025": {
+    "z": 12.64,
+    "p_two_sided": 1.3e-36,
+    "n": 6840,
+    "direction": "up"
+   },
+   "last_1990-2026": {
+    "z": 24.31,
+    "p_two_sided": 1.6e-130,
+    "n": 13976,
+    "direction": "up"
+   },
+   "last_1990-2025": {
+    "z": 19.73,
+    "p_two_sided": 1.2e-86,
+    "n": 13182,
+    "direction": "up"
+   },
+   "last_1995-2026": {
+    "z": 24.01,
+    "p_two_sided": 2.2e-127,
+    "n": 13423,
+    "direction": "up"
+   },
+   "last_1995-2025": {
+    "z": 19.29,
+    "p_two_sided": 6.5e-83,
+    "n": 12629,
+    "direction": "up"
+   },
+   "last_2000-2026": {
+    "z": 23.64,
+    "p_two_sided": 1.7e-123,
+    "n": 12746,
+    "direction": "up"
+   },
+   "last_2000-2025": {
+    "z": 18.81,
+    "p_two_sided": 5.8e-79,
+    "n": 11952,
+    "direction": "up"
+   },
+   "last_2005-2026": {
+    "z": 21.65,
+    "p_two_sided": 5.8e-104,
+    "n": 11626,
+    "direction": "up"
+   },
+   "last_2005-2025": {
+    "z": 16.66,
+    "p_two_sided": 2.6e-62,
+    "n": 10832,
+    "direction": "up"
+   },
+   "last_2010-2026": {
+    "z": 20.02,
+    "p_two_sided": 3.9e-89,
+    "n": 9917,
+    "direction": "up"
+   },
+   "last_2010-2025": {
+    "z": 15.01,
+    "p_two_sided": 6.7e-51,
+    "n": 9123,
+    "direction": "up"
+   },
+   "last_2015-2026": {
+    "z": 17.04,
+    "p_two_sided": 4.3e-65,
+    "n": 7591,
+    "direction": "up"
+   },
+   "last_2015-2025": {
+    "z": 12.16,
+    "p_two_sided": 5.3e-34,
+    "n": 6797,
+    "direction": "up"
+   }
+  },
+  "period_splits": {
+   "5-year": {
+    "2000-2004": {
+     "papers": 1744,
+     "first": {
+      "k": 65,
+      "n": 1328,
+      "pct": 4.9,
+      "ci95": [
+       3.9,
+       6.2
+      ],
+      "known_share": 0.761,
+      "floor_if_all_unknown_non_SSA_pct": 3.7
+     },
+     "last": {
+      "k": 33,
+      "n": 1120,
+      "pct": 2.9,
+      "ci95": [
+       2.1,
+       4.1
+      ],
+      "known_share": 0.642,
+      "floor_if_all_unknown_non_SSA_pct": 1.9
+     }
+    },
+    "2005-2009": {
+     "papers": 2406,
+     "first": {
+      "k": 184,
+      "n": 1917,
+      "pct": 9.6,
+      "ci95": [
+       8.4,
+       11.0
+      ],
+      "known_share": 0.797,
+      "floor_if_all_unknown_non_SSA_pct": 7.6
+     },
+     "last": {
+      "k": 95,
+      "n": 1709,
+      "pct": 5.6,
+      "ci95": [
+       4.6,
+       6.7
+      ],
+      "known_share": 0.71,
+      "floor_if_all_unknown_non_SSA_pct": 3.9
+     }
+    },
+    "2010-2014": {
+     "papers": 3082,
+     "first": {
+      "k": 231,
+      "n": 2503,
+      "pct": 9.2,
+      "ci95": [
+       8.2,
+       10.4
+      ],
+      "known_share": 0.812,
+      "floor_if_all_unknown_non_SSA_pct": 7.5
+     },
+     "last": {
+      "k": 155,
+      "n": 2326,
+      "pct": 6.7,
+      "ci95": [
+       5.7,
+       7.8
+      ],
+      "known_share": 0.755,
+      "floor_if_all_unknown_non_SSA_pct": 5.0
+     }
+    },
+    "2015-2019": {
+     "papers": 3449,
+     "first": {
+      "k": 314,
+      "n": 2838,
+      "pct": 11.1,
+      "ci95": [
+       10.0,
+       12.3
+      ],
+      "known_share": 0.823,
+      "floor_if_all_unknown_non_SSA_pct": 9.1
+     },
+     "last": {
+      "k": 260,
+      "n": 2812,
+      "pct": 9.2,
+      "ci95": [
+       8.2,
+       10.4
+      ],
+      "known_share": 0.815,
+      "floor_if_all_unknown_non_SSA_pct": 7.5
+     }
+    },
+    "2020-2026": {
+     "papers": 5777,
+     "first": {
+      "k": 1060,
+      "n": 4787,
+      "pct": 22.1,
+      "ci95": [
+       21.0,
+       23.3
+      ],
+      "known_share": 0.829,
+      "floor_if_all_unknown_non_SSA_pct": 18.3
+     },
+     "last": {
+      "k": 932,
+      "n": 4779,
+      "pct": 19.5,
+      "ci95": [
+       18.4,
+       20.6
+      ],
+      "known_share": 0.827,
+      "floor_if_all_unknown_non_SSA_pct": 16.1
+     }
+    }
+   },
+   "with_1990s": {
+    "1990-1999": {
+     "papers": 2096,
+     "first": {
+      "k": 88,
+      "n": 1643,
+      "pct": 5.4,
+      "ci95": [
+       4.4,
+       6.6
+      ],
+      "known_share": 0.784,
+      "floor_if_all_unknown_non_SSA_pct": 4.2
+     },
+     "last": {
+      "k": 39,
+      "n": 1230,
+      "pct": 3.2,
+      "ci95": [
+       2.3,
+       4.3
+      ],
+      "known_share": 0.587,
+      "floor_if_all_unknown_non_SSA_pct": 1.9
+     }
+    },
+    "2000-2009": {
+     "papers": 4150,
+     "first": {
+      "k": 249,
+      "n": 3245,
+      "pct": 7.7,
+      "ci95": [
+       6.8,
+       8.6
+      ],
+      "known_share": 0.782,
+      "floor_if_all_unknown_non_SSA_pct": 6.0
+     },
+     "last": {
+      "k": 128,
+      "n": 2829,
+      "pct": 4.5,
+      "ci95": [
+       3.8,
+       5.4
+      ],
+      "known_share": 0.682,
+      "floor_if_all_unknown_non_SSA_pct": 3.1
+     }
+    },
+    "2010-2019": {
+     "papers": 6531,
+     "first": {
+      "k": 545,
+      "n": 5341,
+      "pct": 10.2,
+      "ci95": [
+       9.4,
+       11.0
+      ],
+      "known_share": 0.818,
+      "floor_if_all_unknown_non_SSA_pct": 8.3
+     },
+     "last": {
+      "k": 415,
+      "n": 5138,
+      "pct": 8.1,
+      "ci95": [
+       7.4,
+       8.9
+      ],
+      "known_share": 0.787,
+      "floor_if_all_unknown_non_SSA_pct": 6.4
+     }
+    },
+    "2020-2026": {
+     "papers": 5777,
+     "first": {
+      "k": 1060,
+      "n": 4787,
+      "pct": 22.1,
+      "ci95": [
+       21.0,
+       23.3
+      ],
+      "known_share": 0.829,
+      "floor_if_all_unknown_non_SSA_pct": 18.3
+     },
+     "last": {
+      "k": 932,
+      "n": 4779,
+      "pct": 19.5,
+      "ci95": [
+       18.4,
+       20.6
+      ],
+      "known_share": 0.827,
+      "floor_if_all_unknown_non_SSA_pct": 16.1
+     }
+    }
+   },
+   "shifted_2005": {
+    "2005-2014": {
+     "papers": 5488,
+     "first": {
+      "k": 415,
+      "n": 4420,
+      "pct": 9.4,
+      "ci95": [
+       8.6,
+       10.3
+      ],
+      "known_share": 0.805,
+      "floor_if_all_unknown_non_SSA_pct": 7.6
+     },
+     "last": {
+      "k": 250,
+      "n": 4035,
+      "pct": 6.2,
+      "ci95": [
+       5.5,
+       7.0
+      ],
+      "known_share": 0.735,
+      "floor_if_all_unknown_non_SSA_pct": 4.6
+     }
+    },
+    "2015-2026": {
+     "papers": 9226,
+     "first": {
+      "k": 1374,
+      "n": 7625,
+      "pct": 18.0,
+      "ci95": [
+       17.2,
+       18.9
+      ],
+      "known_share": 0.826,
+      "floor_if_all_unknown_non_SSA_pct": 14.9
+     },
+     "last": {
+      "k": 1192,
+      "n": 7591,
+      "pct": 15.7,
+      "ci95": [
+       14.9,
+       16.5
+      ],
+      "known_share": 0.823,
+      "floor_if_all_unknown_non_SSA_pct": 12.9
+     }
+    }
+   },
+   "two_halves": {
+    "2000-2012": {
+     "papers": 5937,
+     "first": {
+      "k": 385,
+      "n": 4715,
+      "pct": 8.2,
+      "ci95": [
+       7.4,
+       9.0
+      ],
+      "known_share": 0.794,
+      "floor_if_all_unknown_non_SSA_pct": 6.5
+     },
+     "last": {
+      "k": 210,
+      "n": 4165,
+      "pct": 5.0,
+      "ci95": [
+       4.4,
+       5.7
+      ],
+      "known_share": 0.702,
+      "floor_if_all_unknown_non_SSA_pct": 3.5
+     }
+    },
+    "2013-2026": {
+     "papers": 10521,
+     "first": {
+      "k": 1469,
+      "n": 8658,
+      "pct": 17.0,
+      "ci95": [
+       16.2,
+       17.8
+      ],
+      "known_share": 0.823,
+      "floor_if_all_unknown_non_SSA_pct": 14.0
+     },
+     "last": {
+      "k": 1265,
+      "n": 8581,
+      "pct": 14.7,
+      "ci95": [
+       14.0,
+       15.5
+      ],
+      "known_share": 0.816,
+      "floor_if_all_unknown_non_SSA_pct": 12.0
+     }
+    }
+   },
+   "drop_2026": {
+    "2000-2009": {
+     "papers": 4150,
+     "first": {
+      "k": 249,
+      "n": 3245,
+      "pct": 7.7,
+      "ci95": [
+       6.8,
+       8.6
+      ],
+      "known_share": 0.782,
+      "floor_if_all_unknown_non_SSA_pct": 6.0
+     },
+     "last": {
+      "k": 128,
+      "n": 2829,
+      "pct": 4.5,
+      "ci95": [
+       3.8,
+       5.4
+      ],
+      "known_share": 0.682,
+      "floor_if_all_unknown_non_SSA_pct": 3.1
+     }
+    },
+    "2010-2019": {
+     "papers": 6531,
+     "first": {
+      "k": 545,
+      "n": 5341,
+      "pct": 10.2,
+      "ci95": [
+       9.4,
+       11.0
+      ],
+      "known_share": 0.818,
+      "floor_if_all_unknown_non_SSA_pct": 8.3
+     },
+     "last": {
+      "k": 415,
+      "n": 5138,
+      "pct": 8.1,
+      "ci95": [
+       7.4,
+       8.9
+      ],
+      "known_share": 0.787,
+      "floor_if_all_unknown_non_SSA_pct": 6.4
+     }
+    },
+    "2020-2025": {
+     "papers": 4808,
+     "first": {
+      "k": 780,
+      "n": 4002,
+      "pct": 19.5,
+      "ci95": [
+       18.3,
+       20.7
+      ],
+      "known_share": 0.832,
+      "floor_if_all_unknown_non_SSA_pct": 16.2
+     },
+     "last": {
+      "k": 670,
+      "n": 3985,
+      "pct": 16.8,
+      "ci95": [
+       15.7,
+       18.0
+      ],
+      "known_share": 0.829,
+      "floor_if_all_unknown_non_SSA_pct": 13.9
+     }
+    }
+   }
+  },
+  "annual_series": [
+   {
+    "year": 1990,
+    "papers": 194,
+    "first_ssa_pct": 5.7,
+    "first_known": 0.82,
+    "last_ssa_pct": 2.8,
+    "last_known": 0.56
+   },
+   {
+    "year": 1991,
+    "papers": 194,
+    "first_ssa_pct": 4.5,
+    "first_known": 0.81,
+    "last_ssa_pct": 2.0,
+    "last_known": 0.53
+   },
+   {
+    "year": 1992,
+    "papers": 204,
+    "first_ssa_pct": 2.6,
+    "first_known": 0.75,
+    "last_ssa_pct": 2.6,
+    "last_known": 0.57
+   },
+   {
+    "year": 1993,
+    "papers": 159,
+    "first_ssa_pct": 5.0,
+    "first_known": 0.76,
+    "last_ssa_pct": 4.2,
+    "last_known": 0.6
+   },
+   {
+    "year": 1994,
+    "papers": 224,
+    "first_ssa_pct": 4.0,
+    "first_known": 0.78,
+    "last_ssa_pct": 2.3,
+    "last_known": 0.58
+   },
+   {
+    "year": 1995,
+    "papers": 207,
+    "first_ssa_pct": 7.8,
+    "first_known": 0.74,
+    "last_ssa_pct": 5.1,
+    "last_known": 0.57
+   },
+   {
+    "year": 1996,
+    "papers": 181,
+    "first_ssa_pct": 4.4,
+    "first_known": 0.76,
+    "last_ssa_pct": 2.0,
+    "last_known": 0.55
+   },
+   {
+    "year": 1997,
+    "papers": 264,
+    "first_ssa_pct": 4.3,
+    "first_known": 0.79,
+    "last_ssa_pct": 2.3,
+    "last_known": 0.65
+   },
+   {
+    "year": 1998,
+    "papers": 224,
+    "first_ssa_pct": 4.8,
+    "first_known": 0.84,
+    "last_ssa_pct": 2.8,
+    "last_known": 0.64
+   },
+   {
+    "year": 1999,
+    "papers": 245,
+    "first_ssa_pct": 9.9,
+    "first_known": 0.78,
+    "last_ssa_pct": 5.5,
+    "last_known": 0.6
+   },
+   {
+    "year": 2000,
+    "papers": 317,
+    "first_ssa_pct": 4.1,
+    "first_known": 0.77,
+    "last_ssa_pct": 1.5,
+    "last_known": 0.65
+   },
+   {
+    "year": 2001,
+    "papers": 352,
+    "first_ssa_pct": 4.8,
+    "first_known": 0.72,
+    "last_ssa_pct": 2.9,
+    "last_known": 0.59
+   },
+   {
+    "year": 2002,
+    "papers": 350,
+    "first_ssa_pct": 3.7,
+    "first_known": 0.76,
+    "last_ssa_pct": 1.8,
+    "last_known": 0.63
+   },
+   {
+    "year": 2003,
+    "papers": 327,
+    "first_ssa_pct": 6.2,
+    "first_known": 0.8,
+    "last_ssa_pct": 3.5,
+    "last_known": 0.69
+   },
+   {
+    "year": 2004,
+    "papers": 398,
+    "first_ssa_pct": 5.6,
+    "first_known": 0.77,
+    "last_ssa_pct": 4.6,
+    "last_known": 0.66
+   },
+   {
+    "year": 2005,
+    "papers": 442,
+    "first_ssa_pct": 6.1,
+    "first_known": 0.78,
+    "last_ssa_pct": 3.9,
+    "last_known": 0.69
+   },
+   {
+    "year": 2006,
+    "papers": 414,
+    "first_ssa_pct": 8.8,
+    "first_known": 0.8,
+    "last_ssa_pct": 3.1,
+    "last_known": 0.7
+   },
+   {
+    "year": 2007,
+    "papers": 521,
+    "first_ssa_pct": 9.4,
+    "first_known": 0.82,
+    "last_ssa_pct": 5.9,
+    "last_known": 0.72
+   },
+   {
+    "year": 2008,
+    "papers": 513,
+    "first_ssa_pct": 12.3,
+    "first_known": 0.81,
+    "last_ssa_pct": 8.4,
+    "last_known": 0.72
+   },
+   {
+    "year": 2009,
+    "papers": 516,
+    "first_ssa_pct": 10.6,
+    "first_known": 0.79,
+    "last_ssa_pct": 5.7,
+    "last_known": 0.72
+   },
+   {
+    "year": 2010,
+    "papers": 594,
+    "first_ssa_pct": 9.9,
+    "first_known": 0.83,
+    "last_ssa_pct": 5.9,
+    "last_known": 0.75
+   },
+   {
+    "year": 2011,
+    "papers": 595,
+    "first_ssa_pct": 9.9,
+    "first_known": 0.82,
+    "last_ssa_pct": 6.7,
+    "last_known": 0.75
+   },
+   {
+    "year": 2012,
+    "papers": 598,
+    "first_ssa_pct": 8.0,
+    "first_known": 0.82,
+    "last_ssa_pct": 5.8,
+    "last_known": 0.75
+   },
+   {
+    "year": 2013,
+    "papers": 640,
+    "first_ssa_pct": 8.8,
+    "first_known": 0.8,
+    "last_ssa_pct": 6.2,
+    "last_known": 0.74
+   },
+   {
+    "year": 2014,
+    "papers": 655,
+    "first_ssa_pct": 9.6,
+    "first_known": 0.8,
+    "last_ssa_pct": 8.5,
+    "last_known": 0.79
+   },
+   {
+    "year": 2015,
+    "papers": 733,
+    "first_ssa_pct": 8.1,
+    "first_known": 0.79,
+    "last_ssa_pct": 7.0,
+    "last_known": 0.78
+   },
+   {
+    "year": 2016,
+    "papers": 684,
+    "first_ssa_pct": 10.6,
+    "first_known": 0.81,
+    "last_ssa_pct": 9.1,
+    "last_known": 0.81
+   },
+   {
+    "year": 2017,
+    "papers": 719,
+    "first_ssa_pct": 12.3,
+    "first_known": 0.82,
+    "last_ssa_pct": 9.6,
+    "last_known": 0.82
+   },
+   {
+    "year": 2018,
+    "papers": 639,
+    "first_ssa_pct": 12.4,
+    "first_known": 0.86,
+    "last_ssa_pct": 10.0,
+    "last_known": 0.85
+   },
+   {
+    "year": 2019,
+    "papers": 674,
+    "first_ssa_pct": 12.0,
+    "first_known": 0.83,
+    "last_ssa_pct": 10.7,
+    "last_known": 0.83
+   },
+   {
+    "year": 2020,
+    "papers": 767,
+    "first_ssa_pct": 14.3,
+    "first_known": 0.84,
+    "last_ssa_pct": 11.6,
+    "last_known": 0.83
+   },
+   {
+    "year": 2021,
+    "papers": 770,
+    "first_ssa_pct": 13.6,
+    "first_known": 0.81,
+    "last_ssa_pct": 13.1,
+    "last_known": 0.81
+   },
+   {
+    "year": 2022,
+    "papers": 788,
+    "first_ssa_pct": 15.9,
+    "first_known": 0.86,
+    "last_ssa_pct": 12.4,
+    "last_known": 0.85
+   },
+   {
+    "year": 2023,
+    "papers": 769,
+    "first_ssa_pct": 18.5,
+    "first_known": 0.83,
+    "last_ssa_pct": 15.1,
+    "last_known": 0.82
+   },
+   {
+    "year": 2024,
+    "papers": 785,
+    "first_ssa_pct": 21.6,
+    "first_known": 0.82,
+    "last_ssa_pct": 19.5,
+    "last_known": 0.82
+   },
+   {
+    "year": 2025,
+    "papers": 929,
+    "first_ssa_pct": 30.7,
+    "first_known": 0.83,
+    "last_ssa_pct": 27.2,
+    "last_known": 0.83
+   },
+   {
+    "year": 2026,
+    "papers": 969,
+    "first_ssa_pct": 35.7,
+    "first_known": 0.81,
+    "last_ssa_pct": 33.0,
+    "last_known": 0.82
+   }
+  ]
+ },
+ "sensitivity": {
+  "country_priority_openalex_first": {
+   "2000-2009": {
+    "papers": 4150,
+    "first": {
+     "k": 217,
+     "n": 3245,
+     "pct": 6.7,
+     "ci95": [
+      5.9,
+      7.6
+     ],
+     "known_share": 0.782,
+     "floor_if_all_unknown_non_SSA_pct": 5.2
+    },
+    "last": {
+     "k": 128,
+     "n": 2829,
+     "pct": 4.5,
+     "ci95": [
+      3.8,
+      5.4
+     ],
+     "known_share": 0.682,
+     "floor_if_all_unknown_non_SSA_pct": 3.1
+    }
+   },
+   "2010-2019": {
+    "papers": 6531,
+    "first": {
+     "k": 509,
+     "n": 5341,
+     "pct": 9.5,
+     "ci95": [
+      8.8,
+      10.3
+     ],
+     "known_share": 0.818,
+     "floor_if_all_unknown_non_SSA_pct": 7.8
+    },
+    "last": {
+     "k": 389,
+     "n": 5138,
+     "pct": 7.6,
+     "ci95": [
+      6.9,
+      8.3
+     ],
+     "known_share": 0.787,
+     "floor_if_all_unknown_non_SSA_pct": 6.0
+    }
+   },
+   "2020-2026": {
+    "papers": 5777,
+    "first": {
+     "k": 1011,
+     "n": 4787,
+     "pct": 21.1,
+     "ci95": [
+      20.0,
+      22.3
+     ],
+     "known_share": 0.829,
+     "floor_if_all_unknown_non_SSA_pct": 17.5
+    },
+    "last": {
+     "k": 885,
+     "n": 4779,
+     "pct": 18.5,
+     "ci95": [
+      17.4,
+      19.6
+     ],
+     "known_share": 0.827,
+     "floor_if_all_unknown_non_SSA_pct": 15.3
+    }
+   }
+  },
+  "single_source_openalex_only (same method in all periods)": {
+   "2000-2009": {
+    "papers": 4150,
+    "first": {
+     "k": 189,
+     "n": 2957,
+     "pct": 6.4,
+     "ci95": [
+      5.6,
+      7.3
+     ],
+     "known_share": 0.713,
+     "floor_if_all_unknown_non_SSA_pct": 4.6
+    },
+    "last": {
+     "k": 125,
+     "n": 2773,
+     "pct": 4.5,
+     "ci95": [
+      3.8,
+      5.3
+     ],
+     "known_share": 0.668,
+     "floor_if_all_unknown_non_SSA_pct": 3.0
+    }
+   },
+   "2010-2019": {
+    "papers": 6531,
+    "first": {
+     "k": 481,
+     "n": 5059,
+     "pct": 9.5,
+     "ci95": [
+      8.7,
+      10.3
+     ],
+     "known_share": 0.775,
+     "floor_if_all_unknown_non_SSA_pct": 7.4
+    },
+    "last": {
+     "k": 369,
+     "n": 4947,
+     "pct": 7.5,
+     "ci95": [
+      6.8,
+      8.2
+     ],
+     "known_share": 0.757,
+     "floor_if_all_unknown_non_SSA_pct": 5.6
+    }
+   },
+   "2020-2026": {
+    "papers": 5777,
+    "first": {
+     "k": 963,
+     "n": 4505,
+     "pct": 21.4,
+     "ci95": [
+      20.2,
+      22.6
+     ],
+     "known_share": 0.78,
+     "floor_if_all_unknown_non_SSA_pct": 16.7
+    },
+    "last": {
+     "k": 840,
+     "n": 4515,
+     "pct": 18.6,
+     "ci95": [
+      17.5,
+      19.8
+     ],
+     "known_share": 0.782,
+     "floor_if_all_unknown_non_SSA_pct": 14.5
+    }
+   }
+  },
+  "single_source_pubmed_text_only (gate applies)": {
+   "2000-2009": {
+    "papers": 2703,
+    "first": {
+     "k": 196,
+     "n": 2484,
+     "pct": 7.9,
+     "ci95": [
+      6.9,
+      9.0
+     ],
+     "known_share": 0.919,
+     "floor_if_all_unknown_non_SSA_pct": 7.3
+    },
+    "last": {
+     "reported": false,
+     "known_share": 0.1,
+     "reason": "country known for less than half of papers"
+    }
+   },
+   "2010-2019": {
+    "papers": 4079,
+    "first": {
+     "k": 347,
+     "n": 3763,
+     "pct": 9.2,
+     "ci95": [
+      8.3,
+      10.2
+     ],
+     "known_share": 0.923,
+     "floor_if_all_unknown_non_SSA_pct": 8.5
+    },
+    "last": {
+     "k": 172,
+     "n": 2275,
+     "pct": 7.6,
+     "ci95": [
+      6.5,
+      8.7
+     ],
+     "known_share": 0.558,
+     "floor_if_all_unknown_non_SSA_pct": 4.2
+    }
+   },
+   "2020-2026": {
+    "papers": 3189,
+    "first": {
+     "k": 557,
+     "n": 3057,
+     "pct": 18.2,
+     "ci95": [
+      16.9,
+      19.6
+     ],
+     "known_share": 0.959,
+     "floor_if_all_unknown_non_SSA_pct": 17.5
+    },
+    "last": {
+     "k": 459,
+     "n": 3007,
+     "pct": 15.3,
+     "ci95": [
+      14.0,
+      16.6
+     ],
+     "known_share": 0.943,
+     "floor_if_all_unknown_non_SSA_pct": 14.4
+    }
+   }
+  },
+  "multi_country_authors_any_SSA": {
+   "2000-2009": {
+    "papers": 4150,
+    "first": {
+     "k": 262,
+     "n": 3245,
+     "pct": 8.1,
+     "ci95": [
+      7.2,
+      9.1
+     ],
+     "known_share": 0.782,
+     "floor_if_all_unknown_non_SSA_pct": 6.3
+    },
+    "last": {
+     "k": 208,
+     "n": 2829,
+     "pct": 7.4,
+     "ci95": [
+      6.4,
+      8.4
+     ],
+     "known_share": 0.682,
+     "floor_if_all_unknown_non_SSA_pct": 5.0
+    }
+   },
+   "2010-2019": {
+    "papers": 6531,
+    "first": {
+     "k": 604,
+     "n": 5341,
+     "pct": 11.3,
+     "ci95": [
+      10.5,
+      12.2
+     ],
+     "known_share": 0.818,
+     "floor_if_all_unknown_non_SSA_pct": 9.2
+    },
+    "last": {
+     "k": 507,
+     "n": 5138,
+     "pct": 9.9,
+     "ci95": [
+      9.1,
+      10.7
+     ],
+     "known_share": 0.787,
+     "floor_if_all_unknown_non_SSA_pct": 7.8
+    }
+   },
+   "2020-2026": {
+    "papers": 5777,
+    "first": {
+     "k": 1149,
+     "n": 4787,
+     "pct": 24.0,
+     "ci95": [
+      22.8,
+      25.2
+     ],
+     "known_share": 0.829,
+     "floor_if_all_unknown_non_SSA_pct": 19.9
+    },
+    "last": {
+     "k": 1031,
+     "n": 4779,
+     "pct": 21.6,
+     "ci95": [
+      20.4,
+      22.8
+     ],
+     "known_share": 0.827,
+     "floor_if_all_unknown_non_SSA_pct": 17.8
+    }
+   }
+  },
+  "multi_country_authors_only_SSA": {
+   "2000-2009": {
+    "papers": 4150,
+    "first": {
+     "k": 242,
+     "n": 3245,
+     "pct": 7.5,
+     "ci95": [
+      6.6,
+      8.4
+     ],
+     "known_share": 0.782,
+     "floor_if_all_unknown_non_SSA_pct": 5.8
+    },
+    "last": {
+     "k": 109,
+     "n": 2829,
+     "pct": 3.9,
+     "ci95": [
+      3.2,
+      4.6
+     ],
+     "known_share": 0.682,
+     "floor_if_all_unknown_non_SSA_pct": 2.6
+    }
+   },
+   "2010-2019": {
+    "papers": 6531,
+    "first": {
+     "k": 492,
+     "n": 5341,
+     "pct": 9.2,
+     "ci95": [
+      8.5,
+      10.0
+     ],
+     "known_share": 0.818,
+     "floor_if_all_unknown_non_SSA_pct": 7.5
+    },
+    "last": {
+     "k": 362,
+     "n": 5138,
+     "pct": 7.0,
+     "ci95": [
+      6.4,
+      7.8
+     ],
+     "known_share": 0.787,
+     "floor_if_all_unknown_non_SSA_pct": 5.5
+    }
+   },
+   "2020-2026": {
+    "papers": 5777,
+    "first": {
+     "k": 973,
+     "n": 4787,
+     "pct": 20.3,
+     "ci95": [
+      19.2,
+      21.5
+     ],
+     "known_share": 0.829,
+     "floor_if_all_unknown_non_SSA_pct": 16.8
+    },
+    "last": {
+     "k": 856,
+     "n": 4779,
+     "pct": 17.9,
+     "ci95": [
+      16.9,
+      19.0
+     ],
+     "known_share": 0.827,
+     "floor_if_all_unknown_non_SSA_pct": 14.8
+    }
+   }
+  },
+  "multi_author_papers_only": {
+   "2000-2009": {
+    "papers": 2987,
+    "first": {
+     "k": 217,
+     "n": 2710,
+     "pct": 8.0,
+     "ci95": [
+      7.0,
+      9.1
+     ],
+     "known_share": 0.907,
+     "floor_if_all_unknown_non_SSA_pct": 7.3
+    },
+    "last": {
+     "k": 96,
+     "n": 2294,
+     "pct": 4.2,
+     "ci95": [
+      3.4,
+      5.1
+     ],
+     "known_share": 0.768,
+     "floor_if_all_unknown_non_SSA_pct": 3.2
+    }
+   },
+   "2010-2019": {
+    "papers": 5246,
+    "first": {
+     "k": 490,
+     "n": 4724,
+     "pct": 10.4,
+     "ci95": [
+      9.5,
+      11.3
+     ],
+     "known_share": 0.9,
+     "floor_if_all_unknown_non_SSA_pct": 9.3
+    },
+    "last": {
+     "k": 360,
+     "n": 4521,
+     "pct": 8.0,
+     "ci95": [
+      7.2,
+      8.8
+     ],
+     "known_share": 0.862,
+     "floor_if_all_unknown_non_SSA_pct": 6.9
+    }
+   },
+   "2020-2026": {
+    "papers": 4902,
+    "first": {
+     "k": 965,
+     "n": 4346,
+     "pct": 22.2,
+     "ci95": [
+      21.0,
+      23.5
+     ],
+     "known_share": 0.887,
+     "floor_if_all_unknown_non_SSA_pct": 19.7
+    },
+    "last": {
+     "k": 837,
+     "n": 4340,
+     "pct": 19.3,
+     "ci95": [
+      18.1,
+      20.5
+     ],
+     "known_share": 0.885,
+     "floor_if_all_unknown_non_SSA_pct": 17.1
+    }
+   }
+  },
+  "research_articles_and_reviews_only": {
+   "2000-2009": {
+    "papers": 3725,
+    "first": {
+     "k": 239,
+     "n": 3017,
+     "pct": 7.9,
+     "ci95": [
+      7.0,
+      8.9
+     ],
+     "known_share": 0.81,
+     "floor_if_all_unknown_non_SSA_pct": 6.4
+    },
+    "last": {
+     "k": 119,
+     "n": 2613,
+     "pct": 4.6,
+     "ci95": [
+      3.8,
+      5.4
+     ],
+     "known_share": 0.701,
+     "floor_if_all_unknown_non_SSA_pct": 3.2
+    }
+   },
+   "2010-2019": {
+    "papers": 5835,
+    "first": {
+     "k": 513,
+     "n": 4863,
+     "pct": 10.5,
+     "ci95": [
+      9.7,
+      11.4
+     ],
+     "known_share": 0.833,
+     "floor_if_all_unknown_non_SSA_pct": 8.8
+    },
+    "last": {
+     "k": 386,
+     "n": 4666,
+     "pct": 8.3,
+     "ci95": [
+      7.5,
+      9.1
+     ],
+     "known_share": 0.8,
+     "floor_if_all_unknown_non_SSA_pct": 6.6
+    }
+   },
+   "2020-2026": {
+    "papers": 4826,
+    "first": {
+     "k": 948,
+     "n": 4179,
+     "pct": 22.7,
+     "ci95": [
+      21.4,
+      24.0
+     ],
+     "known_share": 0.866,
+     "floor_if_all_unknown_non_SSA_pct": 19.6
+    },
+    "last": {
+     "k": 836,
+     "n": 4160,
+     "pct": 20.1,
+     "ci95": [
+      18.9,
+      21.3
+     ],
+     "known_share": 0.862,
+     "floor_if_all_unknown_non_SSA_pct": 17.3
+    }
+   }
+  },
+  "excluding_preprint_only_works": {
+   "2000-2009": {
+    "papers": 4134,
+    "first": {
+     "k": 249,
+     "n": 3237,
+     "pct": 7.7,
+     "ci95": [
+      6.8,
+      8.7
+     ],
+     "known_share": 0.783,
+     "floor_if_all_unknown_non_SSA_pct": 6.0
+    },
+    "last": {
+     "k": 128,
+     "n": 2822,
+     "pct": 4.5,
+     "ci95": [
+      3.8,
+      5.4
+     ],
+     "known_share": 0.683,
+     "floor_if_all_unknown_non_SSA_pct": 3.1
+    }
+   },
+   "2010-2019": {
+    "papers": 6472,
+    "first": {
+     "k": 535,
+     "n": 5308,
+     "pct": 10.1,
+     "ci95": [
+      9.3,
+      10.9
+     ],
+     "known_share": 0.82,
+     "floor_if_all_unknown_non_SSA_pct": 8.3
+    },
+    "last": {
+     "k": 406,
+     "n": 5106,
+     "pct": 8.0,
+     "ci95": [
+      7.2,
+      8.7
+     ],
+     "known_share": 0.789,
+     "floor_if_all_unknown_non_SSA_pct": 6.3
+    }
+   },
+   "2020-2026": {
+    "papers": 5339,
+    "first": {
+     "k": 991,
+     "n": 4564,
+     "pct": 21.7,
+     "ci95": [
+      20.5,
+      22.9
+     ],
+     "known_share": 0.855,
+     "floor_if_all_unknown_non_SSA_pct": 18.6
+    },
+    "last": {
+     "k": 872,
+     "n": 4557,
+     "pct": 19.1,
+     "ci95": [
+      18.0,
+      20.3
+     ],
+     "known_share": 0.854,
+     "floor_if_all_unknown_non_SSA_pct": 16.3
+    }
+   }
+  },
+  "works_found_by_all_three_sources": {
+   "2000-2009": {
+    "papers": 2412,
+    "first": {
+     "k": 184,
+     "n": 2351,
+     "pct": 7.8,
+     "ci95": [
+      6.8,
+      9.0
+     ],
+     "known_share": 0.975,
+     "floor_if_all_unknown_non_SSA_pct": 7.6
+    },
+    "last": {
+     "k": 83,
+     "n": 2107,
+     "pct": 3.9,
+     "ci95": [
+      3.2,
+      4.9
+     ],
+     "known_share": 0.874,
+     "floor_if_all_unknown_non_SSA_pct": 3.4
+    }
+   },
+   "2010-2019": {
+    "papers": 3808,
+    "first": {
+     "k": 356,
+     "n": 3704,
+     "pct": 9.6,
+     "ci95": [
+      8.7,
+      10.6
+     ],
+     "known_share": 0.973,
+     "floor_if_all_unknown_non_SSA_pct": 9.3
+    },
+    "last": {
+     "k": 241,
+     "n": 3583,
+     "pct": 6.7,
+     "ci95": [
+      6.0,
+      7.6
+     ],
+     "known_share": 0.941,
+     "floor_if_all_unknown_non_SSA_pct": 6.3
+    }
+   },
+   "2020-2026": {
+    "papers": 2973,
+    "first": {
+     "k": 538,
+     "n": 2912,
+     "pct": 18.5,
+     "ci95": [
+      17.1,
+      19.9
+     ],
+     "known_share": 0.979,
+     "floor_if_all_unknown_non_SSA_pct": 18.1
+    },
+    "last": {
+     "k": 438,
+     "n": 2885,
+     "pct": 15.2,
+     "ci95": [
+      13.9,
+      16.5
+     ],
+     "known_share": 0.97,
+     "floor_if_all_unknown_non_SSA_pct": 14.7
+    }
+   }
+  },
+  "keyword_screened_on_topic_subset": {
+   "2000-2009": {
+    "papers": 1688,
+    "first": {
+     "k": 103,
+     "n": 1370,
+     "pct": 7.5,
+     "ci95": [
+      6.2,
+      9.0
+     ],
+     "known_share": 0.812,
+     "floor_if_all_unknown_non_SSA_pct": 6.1
+    },
+    "last": {
+     "k": 37,
+     "n": 1141,
+     "pct": 3.2,
+     "ci95": [
+      2.4,
+      4.4
+     ],
+     "known_share": 0.676,
+     "floor_if_all_unknown_non_SSA_pct": 2.2
+    }
+   },
+   "2010-2019": {
+    "papers": 2347,
+    "first": {
+     "k": 174,
+     "n": 1947,
+     "pct": 8.9,
+     "ci95": [
+      7.7,
+      10.3
+     ],
+     "known_share": 0.83,
+     "floor_if_all_unknown_non_SSA_pct": 7.4
+    },
+    "last": {
+     "k": 112,
+     "n": 1851,
+     "pct": 6.1,
+     "ci95": [
+      5.1,
+      7.2
+     ],
+     "known_share": 0.789,
+     "floor_if_all_unknown_non_SSA_pct": 4.8
+    }
+   },
+   "2020-2026": {
+    "papers": 1978,
+    "first": {
+     "k": 411,
+     "n": 1710,
+     "pct": 24.0,
+     "ci95": [
+      22.1,
+      26.1
+     ],
+     "known_share": 0.865,
+     "floor_if_all_unknown_non_SSA_pct": 20.8
+    },
+    "last": {
+     "k": 372,
+     "n": 1701,
+     "pct": 21.9,
+     "ci95": [
+      20.0,
+      23.9
+     ],
+     "known_share": 0.86,
+     "floor_if_all_unknown_non_SSA_pct": 18.8
+    }
+   }
+  },
+  "not_passing_keyword_screen": {
+   "2000-2009": {
+    "papers": 2462,
+    "first": {
+     "k": 146,
+     "n": 1875,
+     "pct": 7.8,
+     "ci95": [
+      6.7,
+      9.1
+     ],
+     "known_share": 0.762,
+     "floor_if_all_unknown_non_SSA_pct": 5.9
+    },
+    "last": {
+     "k": 91,
+     "n": 1688,
+     "pct": 5.4,
+     "ci95": [
+      4.4,
+      6.6
+     ],
+     "known_share": 0.686,
+     "floor_if_all_unknown_non_SSA_pct": 3.7
+    }
+   },
+   "2010-2019": {
+    "papers": 4184,
+    "first": {
+     "k": 371,
+     "n": 3394,
+     "pct": 10.9,
+     "ci95": [
+      9.9,
+      12.0
+     ],
+     "known_share": 0.811,
+     "floor_if_all_unknown_non_SSA_pct": 8.9
+    },
+    "last": {
+     "k": 303,
+     "n": 3287,
+     "pct": 9.2,
+     "ci95": [
+      8.3,
+      10.3
+     ],
+     "known_share": 0.786,
+     "floor_if_all_unknown_non_SSA_pct": 7.2
+    }
+   },
+   "2020-2026": {
+    "papers": 3799,
+    "first": {
+     "k": 649,
+     "n": 3077,
+     "pct": 21.1,
+     "ci95": [
+      19.7,
+      22.6
+     ],
+     "known_share": 0.81,
+     "floor_if_all_unknown_non_SSA_pct": 17.1
+    },
+    "last": {
+     "k": 560,
+     "n": 3078,
+     "pct": 18.2,
+     "ci95": [
+      16.9,
+      19.6
+     ],
+     "known_share": 0.81,
+     "floor_if_all_unknown_non_SSA_pct": 14.7
+    }
+   }
+  },
+  "year_definition_earliest_year_across_sources": {
+   "2000-2009": {
+    "papers": 4200,
+    "first": {
+     "k": 251,
+     "n": 3294,
+     "pct": 7.6,
+     "ci95": [
+      6.8,
+      8.6
+     ],
+     "known_share": 0.784,
+     "floor_if_all_unknown_non_SSA_pct": 6.0
+    },
+    "last": {
+     "k": 128,
+     "n": 2877,
+     "pct": 4.4,
+     "ci95": [
+      3.8,
+      5.3
+     ],
+     "known_share": 0.685,
+     "floor_if_all_unknown_non_SSA_pct": 3.0
+    }
+   },
+   "2010-2019": {
+    "papers": 6545,
+    "first": {
+     "k": 551,
+     "n": 5356,
+     "pct": 10.3,
+     "ci95": [
+      9.5,
+      11.1
+     ],
+     "known_share": 0.818,
+     "floor_if_all_unknown_non_SSA_pct": 8.4
+    },
+    "last": {
+     "k": 420,
+     "n": 5154,
+     "pct": 8.1,
+     "ci95": [
+      7.4,
+      8.9
+     ],
+     "known_share": 0.787,
+     "floor_if_all_unknown_non_SSA_pct": 6.4
+    }
+   },
+   "2020-2026": {
+    "papers": 5711,
+    "first": {
+     "k": 1052,
+     "n": 4721,
+     "pct": 22.3,
+     "ci95": [
+      21.1,
+      23.5
+     ],
+     "known_share": 0.827,
+     "floor_if_all_unknown_non_SSA_pct": 18.4
+    },
+    "last": {
+     "k": 927,
+     "n": 4713,
+     "pct": 19.7,
+     "ci95": [
+      18.6,
+      20.8
+     ],
+     "known_share": 0.825,
+     "floor_if_all_unknown_non_SSA_pct": 16.2
+    }
+   }
+  },
+  "all_work_types_incl_patents_theses_datasets": {
+   "2000-2009": {
+    "papers": 5004,
+    "first": {
+     "k": 251,
+     "n": 3379,
+     "pct": 7.4,
+     "ci95": [
+      6.6,
+      8.4
+     ],
+     "known_share": 0.675,
+     "floor_if_all_unknown_non_SSA_pct": 5.0
+    },
+    "last": {
+     "k": 130,
+     "n": 2966,
+     "pct": 4.4,
+     "ci95": [
+      3.7,
+      5.2
+     ],
+     "known_share": 0.593,
+     "floor_if_all_unknown_non_SSA_pct": 2.6
+    }
+   },
+   "2010-2019": {
+    "papers": 7906,
+    "first": {
+     "k": 568,
+     "n": 5736,
+     "pct": 9.9,
+     "ci95": [
+      9.2,
+      10.7
+     ],
+     "known_share": 0.726,
+     "floor_if_all_unknown_non_SSA_pct": 7.2
+    },
+    "last": {
+     "k": 437,
+     "n": 5533,
+     "pct": 7.9,
+     "ci95": [
+      7.2,
+      8.6
+     ],
+     "known_share": 0.7,
+     "floor_if_all_unknown_non_SSA_pct": 5.5
+    }
+   },
+   "2020-2026": {
+    "papers": 6750,
+    "first": {
+     "k": 1100,
+     "n": 5157,
+     "pct": 21.3,
+     "ci95": [
+      20.2,
+      22.5
+     ],
+     "known_share": 0.764,
+     "floor_if_all_unknown_non_SSA_pct": 16.3
+    },
+    "last": {
+     "k": 969,
+     "n": 5153,
+     "pct": 18.8,
+     "ci95": [
+      17.8,
+      19.9
+     ],
+     "known_share": 0.763,
+     "floor_if_all_unknown_non_SSA_pct": 14.4
+    }
+   }
+  }
+ },
+ "sensitivity_change_2000s_to_2020s_pp": {
+  "country_priority_openalex_first": {
+   "first": {
+    "diff_pp": 14.4,
+    "ci95": [
+     13.0,
+     15.9
+    ]
+   },
+   "last": {
+    "diff_pp": 14.0,
+    "ci95": [
+     12.6,
+     15.3
+    ]
+   }
+  },
+  "single_source_openalex_only (same method in all periods)": {
+   "first": {
+    "diff_pp": 15.0,
+    "ci95": [
+     13.5,
+     16.5
+    ]
+   },
+   "last": {
+    "diff_pp": 14.1,
+    "ci95": [
+     12.7,
+     15.5
+    ]
+   }
+  },
+  "single_source_pubmed_text_only (gate applies)": {
+   "first": {
+    "diff_pp": 10.3,
+    "ci95": [
+     8.6,
+     12.1
+    ]
+   },
+   "last": null
+  },
+  "multi_country_authors_any_SSA": {
+   "first": {
+    "diff_pp": 15.9,
+    "ci95": [
+     14.4,
+     17.4
+    ]
+   },
+   "last": {
+    "diff_pp": 14.2,
+    "ci95": [
+     12.7,
+     15.7
+    ]
+   }
+  },
+  "multi_country_authors_only_SSA": {
+   "first": {
+    "diff_pp": 12.9,
+    "ci95": [
+     11.4,
+     14.3
+    ]
+   },
+   "last": {
+    "diff_pp": 14.1,
+    "ci95": [
+     12.7,
+     15.3
+    ]
+   }
+  },
+  "multi_author_papers_only": {
+   "first": {
+    "diff_pp": 14.2,
+    "ci95": [
+     12.6,
+     15.8
+    ]
+   },
+   "last": {
+    "diff_pp": 15.1,
+    "ci95": [
+     13.6,
+     16.5
+    ]
+   }
+  },
+  "research_articles_and_reviews_only": {
+   "first": {
+    "diff_pp": 14.8,
+    "ci95": [
+     13.2,
+     16.3
+    ]
+   },
+   "last": {
+    "diff_pp": 15.5,
+    "ci95": [
+     14.1,
+     17.0
+    ]
+   }
+  },
+  "excluding_preprint_only_works": {
+   "first": {
+    "diff_pp": 14.0,
+    "ci95": [
+     12.5,
+     15.5
+    ]
+   },
+   "last": {
+    "diff_pp": 14.6,
+    "ci95": [
+     13.2,
+     16.0
+    ]
+   }
+  },
+  "works_found_by_all_three_sources": {
+   "first": {
+    "diff_pp": 10.6,
+    "ci95": [
+     8.9,
+     12.4
+    ]
+   },
+   "last": {
+    "diff_pp": 11.2,
+    "ci95": [
+     9.7,
+     12.8
+    ]
+   }
+  },
+  "keyword_screened_on_topic_subset": {
+   "first": {
+    "diff_pp": 16.5,
+    "ci95": [
+     14.0,
+     19.0
+    ]
+   },
+   "last": {
+    "diff_pp": 18.6,
+    "ci95": [
+     16.4,
+     20.8
+    ]
+   }
+  },
+  "not_passing_keyword_screen": {
+   "first": {
+    "diff_pp": 13.3,
+    "ci95": [
+     11.4,
+     15.2
+    ]
+   },
+   "last": {
+    "diff_pp": 12.8,
+    "ci95": [
+     11.0,
+     14.5
+    ]
+   }
+  },
+  "year_definition_earliest_year_across_sources": {
+   "first": {
+    "diff_pp": 14.7,
+    "ci95": [
+     13.2,
+     16.1
+    ]
+   },
+   "last": {
+    "diff_pp": 15.2,
+    "ci95": [
+     13.8,
+     16.6
+    ]
+   }
+  },
+  "all_work_types_incl_patents_theses_datasets": {
+   "first": {
+    "diff_pp": 13.9,
+    "ci95": [
+     12.5,
+     15.3
+    ]
+   },
+   "last": {
+    "diff_pp": 14.4,
+    "ci95": [
+     13.1,
+     15.7
+    ]
+   }
+  }
+ },
+ "year_conflicts": {
+  "works_with_different_years_across_sources": 1224,
+  "papers_changing_period_if_earliest_year_used": 118
+ },
+ "income_keyword_screened_subset_pubyear": {
+  "2000-2009": {
+   "papers": 1688,
+   "known_share": 0.812,
+   "Low income": {
+    "k": 126,
+    "n": 1370,
+    "pct": 9.2,
+    "ci95": [
+     7.8,
+     10.8
+    ]
+   },
+   "Lower middle income": {
+    "k": 182,
+    "n": 1370,
+    "pct": 13.3,
+    "ci95": [
+     11.6,
+     15.2
+    ]
+   },
+   "Upper middle income": {
+    "k": 58,
+    "n": 1370,
+    "pct": 4.2,
+    "ci95": [
+     3.3,
+     5.4
+    ]
+   },
+   "High income": {
+    "k": 1004,
+    "n": 1370,
+    "pct": 73.3,
+    "ci95": [
+     70.9,
+     75.6
+    ]
+   }
+  },
+  "2010-2019": {
+   "papers": 2347,
+   "known_share": 0.83,
+   "Low income": {
+    "k": 91,
+    "n": 1947,
+    "pct": 4.7,
+    "ci95": [
+     3.8,
+     5.7
+    ]
+   },
+   "Lower middle income": {
+    "k": 174,
+    "n": 1947,
+    "pct": 8.9,
+    "ci95": [
+     7.7,
+     10.3
+    ]
+   },
+   "Upper middle income": {
+    "k": 257,
+    "n": 1947,
+    "pct": 13.2,
+    "ci95": [
+     11.8,
+     14.8
+    ]
+   },
+   "High income": {
+    "k": 1425,
+    "n": 1947,
+    "pct": 73.2,
+    "ci95": [
+     71.2,
+     75.1
+    ]
+   }
+  },
+  "2020-2026": {
+   "papers": 1978,
+   "known_share": 0.865,
+   "Low income": {
+    "k": 114,
+    "n": 1710,
+    "pct": 6.7,
+    "ci95": [
+     5.6,
+     7.9
+    ]
+   },
+   "Lower middle income": {
+    "k": 426,
+    "n": 1710,
+    "pct": 24.9,
+    "ci95": [
+     22.9,
+     27.0
+    ]
+   },
+   "Upper middle income": {
+    "k": 204,
+    "n": 1710,
+    "pct": 11.9,
+    "ci95": [
+     10.5,
+     13.6
+    ]
+   },
+   "High income": {
+    "k": 966,
+    "n": 1710,
+    "pct": 56.5,
+    "ci95": [
+     54.1,
+     58.8
+    ]
+   }
+  },
+  "2000-2026": {
+   "papers": 6013,
+   "known_share": 0.836,
+   "Low income": {
+    "k": 331,
+    "n": 5027,
+    "pct": 6.6,
+    "ci95": [
+     5.9,
+     7.3
+    ]
+   },
+   "Lower middle income": {
+    "k": 782,
+    "n": 5027,
+    "pct": 15.6,
+    "ci95": [
+     14.6,
+     16.6
+    ]
+   },
+   "Upper middle income": {
+    "k": 519,
+    "n": 5027,
+    "pct": 10.3,
+    "ci95": [
+     9.5,
+     11.2
+    ]
+   },
+   "High income": {
+    "k": 3395,
+    "n": 5027,
+    "pct": 67.5,
+    "ci95": [
+     66.2,
+     68.8
+    ]
+   }
+  }
+ },
+ "supplementary_papers_with_any_SSA_author": {
+  "note": "denominator = papers with at least one author affiliated in SSA (OpenAlex authorship countries, or SSA first/last author)",
+  "table": {
+   "2000-2009": {
+    "papers": 476,
+    "first": {
+     "k": 249,
+     "n": 472,
+     "pct": 52.8,
+     "ci95": [
+      48.2,
+      57.2
+     ],
+     "known_share": 0.992,
+     "floor_if_all_unknown_non_SSA_pct": 52.3
+    },
+    "last": {
+     "k": 128,
+     "n": 409,
+     "pct": 31.3,
+     "ci95": [
+      27.0,
+      35.9
+     ],
+     "known_share": 0.859,
+     "floor_if_all_unknown_non_SSA_pct": 26.9
+    }
+   },
+   "2010-2019": {
+    "papers": 1033,
+    "first": {
+     "k": 545,
+     "n": 1021,
+     "pct": 53.4,
+     "ci95": [
+      50.3,
+      56.4
+     ],
+     "known_share": 0.988,
+     "floor_if_all_unknown_non_SSA_pct": 52.8
+    },
+    "last": {
+     "k": 415,
+     "n": 981,
+     "pct": 42.3,
+     "ci95": [
+      39.2,
+      45.4
+     ],
+     "known_share": 0.95,
+     "floor_if_all_unknown_non_SSA_pct": 40.2
+    }
+   },
+   "2020-2026": {
+    "papers": 1669,
+    "first": {
+     "k": 1060,
+     "n": 1601,
+     "pct": 66.2,
+     "ci95": [
+      63.9,
+      68.5
+     ],
+     "known_share": 0.959,
+     "floor_if_all_unknown_non_SSA_pct": 63.5
+    },
+    "last": {
+     "k": 932,
+     "n": 1599,
+     "pct": 58.3,
+     "ci95": [
+      55.9,
+      60.7
+     ],
+     "known_share": 0.958,
+     "floor_if_all_unknown_non_SSA_pct": 55.8
+    }
+   }
+  },
+  "share_of_all_papers_with_any_SSA_author": {
+   "2000-2009": {
+    "k": 476,
+    "n": 4150,
+    "pct": 11.5,
+    "ci95": [
+     10.5,
+     12.5
+    ]
+   },
+   "2010-2019": {
+    "k": 1033,
+    "n": 6531,
+    "pct": 15.8,
+    "ci95": [
+     15.0,
+     16.7
+    ]
+   },
+   "2020-2026": {
+    "k": 1669,
+    "n": 5777,
+    "pct": 28.9,
+    "ci95": [
+     27.7,
+     30.1
+    ]
+   }
+  },
+  "change_2000s_to_2020s": {
+   "first": {
+    "diff_pp": 13.5,
+    "ci95": [
+     8.4,
+     18.5
+    ]
+   },
+   "last": {
+    "diff_pp": 27.0,
+    "ci95": [
+     21.7,
+     31.9
+    ]
+   }
+  }
+ },
+ "F_scope": {
+  "sample_design": "50 works drawn at random (seed 20261116) from each group; rated by the agent from the title only",
+  "works_per_group": {
+   "europepmc+openalex+pubmed": 11209,
+   "openalex": 9553,
+   "europepmc": 977,
+   "europepmc+openalex": 815,
+   "pubmed": 675,
+   "europepmc+pubmed": 193,
+   "openalex+pubmed": 172
+  },
+  "sample": {
+   "europepmc": {
+    "n": 50,
+    "on_topic_malaria_vaccine": {
+     "k": 31,
+     "n": 50,
+     "pct": 62.0,
+     "ci95": [
+      48.2,
+      74.1
+     ]
+    },
+    "malaria_related_incl_on_topic": {
+     "k": 37,
+     "n": 50,
+     "pct": 74.0,
+     "ci95": [
+      60.4,
+      84.1
+     ]
+    },
+    "off_topic": {
+     "k": 13,
+     "n": 50,
+     "pct": 26.0,
+     "ci95": [
+      15.9,
+      39.6
+     ]
+    },
+    "of_which_papers_in_sample": 18,
+    "on_topic_among_papers": {
+     "k": 10,
+     "n": 18,
+     "pct": 55.6,
+     "ci95": [
+      33.7,
+      75.4
+     ]
+    }
+   },
+   "europepmc+openalex+pubmed": {
+    "n": 50,
+    "on_topic_malaria_vaccine": {
+     "k": 20,
+     "n": 50,
+     "pct": 40.0,
+     "ci95": [
+      27.6,
+      53.8
+     ]
+    },
+    "malaria_related_incl_on_topic": {
+     "k": 40,
+     "n": 50,
+     "pct": 80.0,
+     "ci95": [
+      67.0,
+      88.8
+     ]
+    },
+    "off_topic": {
+     "k": 10,
+     "n": 50,
+     "pct": 20.0,
+     "ci95": [
+      11.2,
+      33.0
+     ]
+    },
+    "of_which_papers_in_sample": 50,
+    "on_topic_among_papers": {
+     "k": 20,
+     "n": 50,
+     "pct": 40.0,
+     "ci95": [
+      27.6,
+      53.8
+     ]
+    }
+   },
+   "openalex": {
+    "n": 50,
+    "on_topic_malaria_vaccine": {
+     "k": 14,
+     "n": 50,
+     "pct": 28.0,
+     "ci95": [
+      17.5,
+      41.7
+     ]
+    },
+    "malaria_related_incl_on_topic": {
+     "k": 21,
+     "n": 50,
+     "pct": 42.0,
+     "ci95": [
+      29.4,
+      55.8
+     ]
+    },
+    "off_topic": {
+     "k": 29,
+     "n": 50,
+     "pct": 58.0,
+     "ci95": [
+      44.2,
+      70.6
+     ]
+    },
+    "of_which_papers_in_sample": 37,
+    "on_topic_among_papers": {
+     "k": 8,
+     "n": 37,
+     "pct": 21.6,
+     "ci95": [
+      11.4,
+      37.2
+     ]
+    }
+   },
+   "pubmed": {
+    "n": 50,
+    "on_topic_malaria_vaccine": {
+     "k": 2,
+     "n": 50,
+     "pct": 4.0,
+     "ci95": [
+      1.1,
+      13.5
+     ]
+    },
+    "malaria_related_incl_on_topic": {
+     "k": 17,
+     "n": 50,
+     "pct": 34.0,
+     "ci95": [
+      22.4,
+      47.8
+     ]
+    },
+    "off_topic": {
+     "k": 33,
+     "n": 50,
+     "pct": 66.0,
+     "ci95": [
+      52.2,
+      77.6
+     ]
+    },
+    "of_which_papers_in_sample": 49,
+    "on_topic_among_papers": {
+     "k": 2,
+     "n": 49,
+     "pct": 4.1,
+     "ci95": [
+      1.1,
+      13.7
+     ]
+    }
+   }
+  },
+  "keyword_screen_vs_manual_rating": {
+   "screen_definition": "title has a malaria term and a vaccine term, or PubMed MeSH \"Malaria Vaccines\"",
+   "precision_on_sample": {
+    "k": 61,
+    "n": 96,
+    "pct": 63.5,
+    "ci95": [
+     53.6,
+     72.5
+    ]
+   },
+   "recall_on_sample": {
+    "k": 61,
+    "n": 67,
+    "pct": 91.0,
+    "ci95": [
+     81.8,
+     95.8
+    ]
+   },
+   "share_of_papers_2000_2026_passing": 0.365,
+   "papers_passing": 6013
+  },
+  "papers_2000_2026_by_source_combination": {
+   "europepmc+openalex+pubmed": 9193,
+   "openalex": 5707,
+   "pubmed": 542,
+   "europepmc+openalex": 494,
+   "europepmc": 286,
+   "europepmc+pubmed": 153,
+   "openalex+pubmed": 83
+  },
+  "share_of_papers_2000_2026_found_by_one_source_only": 0.397,
+  "first_ssa_by_source_combination_2000_2026": {
+   "europepmc": {
+    "k": 0,
+    "n": 0,
+    "pct": null,
+    "ci95": null
+   },
+   "europepmc+openalex": {
+    "k": 102,
+    "n": 452,
+    "pct": 22.6,
+    "ci95": [
+     19.0,
+     26.6
+    ]
+   },
+   "europepmc+openalex+pubmed": {
+    "k": 1078,
+    "n": 8967,
+    "pct": 12.0,
+    "ci95": [
+     11.4,
+     12.7
+    ]
+   },
+   "europepmc+pubmed": {
+    "k": 20,
+    "n": 121,
+    "pct": 16.5,
+    "ci95": [
+     11.0,
+     24.2
+    ]
+   },
+   "openalex": {
+    "k": 625,
+    "n": 3360,
+    "pct": 18.6,
+    "ci95": [
+     17.3,
+     20.0
+    ]
+   },
+   "openalex+pubmed": {
+    "k": 4,
+    "n": 61,
+    "pct": 6.6,
+    "ci95": [
+     2.6,
+     15.7
+    ]
+   },
+   "pubmed": {
+    "k": 25,
+    "n": 412,
+    "pct": 6.1,
+    "ci95": [
+     4.1,
+     8.8
+    ]
+   }
+  }
+ },
+ "C_checks": [
+  {
+   "check": "OpenAlex ISO2 -> ISO3 mapping complete",
+   "passed": true,
+   "detail": "unmapped codes: {}"
+  },
+  {
+   "check": "PubMed first-author affiliation text parsed to a country (>=95%)",
+   "passed": true,
+   "detail": "0.981 of 11083 affiliation texts; methods {'name': 10162, 'us_state': 513, 'city': 192}"
+  },
+  {
+   "check": "work table has one row per cluster",
+   "passed": true,
+   "detail": "23594 rows"
+  },
+  {
+   "check": "first_iso3 not empty",
+   "passed": true,
+   "detail": "16613 of 23594 works"
+  },
+  {
+   "check": "region join: every known country got a World Bank region (>=99%)",
+   "passed": true,
+   "detail": "1.0000 matched; unmatched codes {}"
+  },
+  {
+   "check": "region values plausible (7 World Bank regions, USA in North America, Kenya in SSA)",
+   "passed": true,
+   "detail": "{'North America': 4899, 'Europe & Central Asia': 4686, 'East Asia & Pacific': 2559, 'Sub-Saharan Africa': 2031, 'South Asia': 1197, 'Latin America & Caribbean': 852, 'Middle East & North Africa': 389}"
+  },
+  {
+   "check": "SSA flag plausible (top SSA countries are malaria-research countries; share between 2% and 60%)",
+   "passed": true,
+   "detail": "share 0.122; top {'NGA': 438, 'KEN': 287, 'GHA': 194, 'UGA': 117, 'ZAF': 111, 'CMR': 103, 'ETH': 102, 'TZA': 100}"
+  },
+  {
+   "check": "income (current, CLASS) not empty and matched >=99%",
+   "passed": true,
+   "detail": "0.9988; unmatched {'VEN': 20}; values {'High income': 11280, 'Lower middle income': 2595, 'Upper middle income': 2102, 'Low income': 616}"
+  },
+  {
+   "check": "income (publication year, OGHIST) not empty and matched >=99%",
+   "passed": true,
+   "detail": "1.0000; unmatched {}; values {'High income': 11238, 'Lower middle income': 2611, 'Upper middle income': 1682, 'Low income': 1080}"
+  },
+  {
+   "check": "income plausible: USA high, Mali low (now and 2005), Kenya low in 2005 and lower-middle now",
+   "passed": true,
+   "detail": "KEN 2005=Low income, KEN now=Lower middle income, OGHIST years 1987-2023"
+  },
+  {
+   "check": "direction of OpenAlex/PubMed disagreement on the SSA flag examined",
+   "passed": true,
+   "detail": "first author: 230 disagreements, PubMed text says SSA and OpenAlex not in 179, the reverse in 51; top pairs OpenAlex GBR vs PubMed KEN/GMB (MRC Gambia, KEMRI-Wellcome coded to the UK parent by OpenAlex)"
+  },
+  {
+   "check": "OpenAlex and PubMed-text countries agree where both exist (SSA flag >=95%)",
+   "passed": true,
+   "detail": "first: n=9784, same country 0.947, same SSA flag 0.976; last: n=5235, same country 0.956, same SSA flag 0.980"
+  },
+  {
+   "check": "year plausible (1800-2026)",
+   "passed": true,
+   "detail": "min 1877.0, max 2026.0, missing 24, works whose sources disagree on year 1224"
+  }
+ ],
+ "extra": {
+  "bounds_unknown_country": {
+   "2000-2009": {
+    "first": {
+     "floor_pct": 6.0,
+     "ceiling_pct": 27.8
+    },
+    "last": {
+     "floor_pct": 3.1,
+     "ceiling_pct": 34.9
+    }
+   },
+   "2010-2019": {
+    "first": {
+     "floor_pct": 8.3,
+     "ceiling_pct": 26.6
+    },
+    "last": {
+     "floor_pct": 6.4,
+     "ceiling_pct": 27.7
+    }
+   },
+   "2020-2026": {
+    "first": {
+     "floor_pct": 18.3,
+     "ceiling_pct": 35.5
+    },
+    "last": {
+     "floor_pct": 16.1,
+     "ceiling_pct": 33.4
+    }
+   }
+  },
+  "topic_split": {
+   "2000-2009": {
+    "share_of_papers_acceptance_implementation": 0.021,
+    "acceptance_implementation": {
+     "first": {
+      "k": 16,
+      "n": 73,
+      "pct": 21.9,
+      "ci95": [
+       14.0,
+       32.7
+      ],
+      "known_share": 0.839
+     },
+     "last": {
+      "k": 6,
+      "n": 66,
+      "pct": 9.1,
+      "ci95": [
+       4.2,
+       18.4
+      ],
+      "known_share": 0.759
+     }
+    },
+    "other_topics": {
+     "first": {
+      "k": 233,
+      "n": 3172,
+      "pct": 7.3,
+      "ci95": [
+       6.5,
+       8.3
+      ],
+      "known_share": 0.781
+     },
+     "last": {
+      "k": 122,
+      "n": 2763,
+      "pct": 4.4,
+      "ci95": [
+       3.7,
+       5.2
+      ],
+      "known_share": 0.68
+     }
+    },
+    "other_topics_keyword_screened": {
+     "first": {
+      "k": 101,
+      "n": 1352,
+      "pct": 7.5,
+      "ci95": [
+       6.2,
+       9.0
+      ],
+      "known_share": 0.811
+     },
+     "last": {
+      "k": 37,
+      "n": 1123,
+      "pct": 3.3,
+      "ci95": [
+       2.4,
+       4.5
+      ],
+      "known_share": 0.673
+     }
+    }
+   },
+   "2010-2019": {
+    "share_of_papers_acceptance_implementation": 0.031,
+    "acceptance_implementation": {
+     "first": {
+      "k": 45,
+      "n": 151,
+      "pct": 29.8,
+      "ci95": [
+       23.1,
+       37.5
+      ],
+      "known_share": 0.744
+     },
+     "last": {
+      "k": 38,
+      "n": 137,
+      "pct": 27.7,
+      "ci95": [
+       20.9,
+       35.8
+      ],
+      "known_share": 0.675
+     }
+    },
+    "other_topics": {
+     "first": {
+      "k": 500,
+      "n": 5190,
+      "pct": 9.6,
+      "ci95": [
+       8.9,
+       10.5
+      ],
+      "known_share": 0.82
+     },
+     "last": {
+      "k": 377,
+      "n": 5001,
+      "pct": 7.5,
+      "ci95": [
+       6.8,
+       8.3
+      ],
+      "known_share": 0.79
+     }
+    },
+    "other_topics_keyword_screened": {
+     "first": {
+      "k": 155,
+      "n": 1903,
+      "pct": 8.1,
+      "ci95": [
+       7.0,
+       9.5
+      ],
+      "known_share": 0.831
+     },
+     "last": {
+      "k": 98,
+      "n": 1814,
+      "pct": 5.4,
+      "ci95": [
+       4.5,
+       6.5
+      ],
+      "known_share": 0.792
+     }
+    }
+   },
+   "2020-2026": {
+    "share_of_papers_acceptance_implementation": 0.088,
+    "acceptance_implementation": {
+     "first": {
+      "k": 235,
+      "n": 406,
+      "pct": 57.9,
+      "ci95": [
+       53.0,
+       62.6
+      ],
+      "known_share": 0.796
+     },
+     "last": {
+      "k": 222,
+      "n": 407,
+      "pct": 54.5,
+      "ci95": [
+       49.7,
+       59.3
+      ],
+      "known_share": 0.798
+     }
+    },
+    "other_topics": {
+     "first": {
+      "k": 825,
+      "n": 4381,
+      "pct": 18.8,
+      "ci95": [
+       17.7,
+       20.0
+      ],
+      "known_share": 0.832
+     },
+     "last": {
+      "k": 710,
+      "n": 4372,
+      "pct": 16.2,
+      "ci95": [
+       15.2,
+       17.4
+      ],
+      "known_share": 0.83
+     }
+    },
+    "other_topics_keyword_screened": {
+     "first": {
+      "k": 247,
+      "n": 1456,
+      "pct": 17.0,
+      "ci95": [
+       15.1,
+       19.0
+      ],
+      "known_share": 0.873
+     },
+     "last": {
+      "k": 213,
+      "n": 1447,
+      "pct": 14.7,
+      "ci95": [
+       13.0,
+       16.6
+      ],
+      "known_share": 0.868
+     }
+    }
+   }
+  },
+  "subperiods": {
+   "2020-2022": {
+    "first": {
+     "k": 285,
+     "n": 1946,
+     "pct": 14.6,
+     "ci95": [
+      13.1,
+      16.3
+     ],
+     "known_share": 0.837
+    },
+    "last": {
+     "k": 239,
+     "n": 1936,
+     "pct": 12.3,
+     "ci95": [
+      11.0,
+      13.9
+     ],
+     "known_share": 0.833
+    },
+    "papers": 2325,
+    "openalex_only_share": 0.324
+   },
+   "2023-2024": {
+    "first": {
+     "k": 257,
+     "n": 1282,
+     "pct": 20.0,
+     "ci95": [
+      17.9,
+      22.3
+     ],
+     "known_share": 0.825
+    },
+    "last": {
+     "k": 221,
+     "n": 1276,
+     "pct": 17.3,
+     "ci95": [
+      15.3,
+      19.5
+     ],
+     "known_share": 0.821
+    },
+    "papers": 1554,
+    "openalex_only_share": 0.365
+   },
+   "2025-2026": {
+    "first": {
+     "k": 518,
+     "n": 1559,
+     "pct": 33.2,
+     "ci95": [
+      30.9,
+      35.6
+     ],
+     "known_share": 0.821
+    },
+    "last": {
+     "k": 472,
+     "n": 1567,
+     "pct": 30.1,
+     "ci95": [
+      27.9,
+      32.4
+     ],
+     "known_share": 0.826
+    },
+    "papers": 1898,
+    "openalex_only_share": 0.428
+   },
+   "2020-2024": {
+    "first": {
+     "k": 542,
+     "n": 3228,
+     "pct": 16.8,
+     "ci95": [
+      15.5,
+      18.1
+     ],
+     "known_share": 0.832
+    },
+    "last": {
+     "k": 460,
+     "n": 3212,
+     "pct": 14.3,
+     "ci95": [
+      13.2,
+      15.6
+     ],
+     "known_share": 0.828
+    },
+    "papers": 3879,
+    "openalex_only_share": 0.341
+   },
+   "2008-2016": {
+    "first": {
+     "k": 431,
+     "n": 4459,
+     "pct": 9.7,
+     "ci95": [
+      8.8,
+      10.6
+     ],
+     "known_share": 0.807
+    },
+    "last": {
+     "k": 297,
+     "n": 4188,
+     "pct": 7.1,
+     "ci95": [
+      6.4,
+      7.9
+     ],
+     "known_share": 0.758
+    },
+    "papers": 5528,
+    "openalex_only_share": 0.34
+   },
+   "2008-2012": {
+    "first": {
+     "k": 230,
+     "n": 2289,
+     "pct": 10.0,
+     "ci95": [
+      8.9,
+      11.3
+     ],
+     "known_share": 0.813
+    },
+    "last": {
+     "k": 134,
+     "n": 2074,
+     "pct": 6.5,
+     "ci95": [
+      5.5,
+      7.6
+     ],
+     "known_share": 0.737
+    },
+    "papers": 2816,
+    "openalex_only_share": 0.322
+   },
+   "2013-2016": {
+    "first": {
+     "k": 201,
+     "n": 2170,
+     "pct": 9.3,
+     "ci95": [
+      8.1,
+      10.6
+     ],
+     "known_share": 0.8
+    },
+    "last": {
+     "k": 163,
+     "n": 2114,
+     "pct": 7.7,
+     "ci95": [
+      6.6,
+      8.9
+     ],
+     "known_share": 0.779
+    },
+    "papers": 2712,
+    "openalex_only_share": 0.358
+   }
+  },
+  "narrow_window_trends": {
+   "first_2008-2016": {
+    "z": -1.4,
+    "p": 0.16,
+    "n": 4459
+   },
+   "first_2005-2015": {
+    "z": -0.26,
+    "p": 0.79,
+    "n": 5002
+   },
+   "first_2010-2019": {
+    "z": 2.66,
+    "p": 0.0079,
+    "n": 5341
+   },
+   "first_2010-2022": {
+    "z": 5.72,
+    "p": 1.1e-08,
+    "n": 7287
+   },
+   "first_2000-2019": {
+    "z": 6.15,
+    "p": 8e-10,
+    "n": 8586
+   },
+   "last_2008-2016": {
+    "z": 1.42,
+    "p": 0.16,
+    "n": 4188
+   },
+   "last_2005-2015": {
+    "z": 2.44,
+    "p": 0.015,
+    "n": 4608
+   },
+   "last_2010-2019": {
+    "z": 4.2,
+    "p": 2.7e-05,
+    "n": 5138
+   },
+   "last_2010-2022": {
+    "z": 6.78,
+    "p": 1.2e-11,
+    "n": 7074
+   },
+   "last_2000-2019": {
+    "z": 8.13,
+    "p": 4.2e-16,
+    "n": 7967
+   }
+  },
+  "files": {
+   "CLASS.xlsx": {
+    "bytes": 69310,
+    "sha256": "c654d9de0acdfb0d1debc9289990d0c4ff79e3364d2922686efdb47fba3feaa2",
+    "mtime_utc": "2026-11-16T08:42:37",
+    "lines": null
+   },
+   "OGHIST.xlsx": {
+    "bytes": 116890,
+    "sha256": "17eb9e67b2eaf7d489ceb303f39f53697ce5b6238ed13c0b11c0846c33024d7b",
+    "mtime_utc": "2026-11-16T08:42:37",
+    "lines": null
+   },
+   "europepmc_2026-11-10.jsonl": {
+    "bytes": 13101112,
+    "sha256": "90025151029913e36663c436bb34932a27269bc61c5fca72627dca35db631e51",
+    "mtime_utc": "2026-11-16T08:42:37",
+    "lines": 13671
+   },
+   "openalex_2026-11-10.jsonl": {
+    "bytes": 37924594,
+    "sha256": "20731ae5e78018a65448390e5a475df808ad661da155ccd5031df7e0162051b6",
+    "mtime_utc": "2026-11-16T08:42:37",
+    "lines": 21845
+   },
+   "pubmed_2026-11-10.jsonl": {
+    "bytes": 36769074,
+    "sha256": "a4cc9a2493aa5346febb34aab856841475653f9466d29e1ca1b4dbf452a3857f",
+    "mtime_utc": "2026-11-16T08:42:37",
+    "lines": 12301
+   }
+  },
+  "oghist_parameters_sheet": {
+   "Label": "Value",
+   "Fiscal Yeay": "FY21",
+   "Publication Date": "(July 2020)",
+   "Low Income Threshold": "$1,035 or less",
+   "Lower Middle Income Range": "$1,036  to $4,045",
+   "Upper Middle Income Range": "$4,046 to $12,535",
+   "High Income Threshold": "$12,536 or more",
+   "Number of economies": "189",
+   "GNI Year": "2019",
+   "Term of Income Classification": "until 1 July 2021"
+  }
+ }
+}

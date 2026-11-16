@@ -1,0 +1,1064 @@
+{
+ "meta": {
+  "data_downloaded": "2026-11-10",
+  "analysis_run": "2026-11-16",
+  "note": "2026 is a partial year (records to 10 Nov 2026)"
+ },
+ "1_deduplication": {
+  "records_loaded": {
+   "openalex": 21845,
+   "europepmc": 13671,
+   "pubmed": 12301
+  },
+  "records_total": 47817,
+  "unique_works": 24039,
+  "works_by_source_combination": {
+   "europepmc+openalex+pubmed": 11219,
+   "openalex": 9570,
+   "europepmc": 1327,
+   "europepmc+openalex": 843,
+   "pubmed": 674,
+   "europepmc+pubmed": 234,
+   "openalex+pubmed": 172
+  },
+  "steps": {
+   "after_pmid_match": 24681,
+   "after_doi_match": 24265,
+   "after_title_year_match": 24039
+  },
+  "invalid_doi_set_to_null": 10,
+  "openalex_pmids_dropped_as_contradicted": 51,
+  "duplicate_pmid_pairs_merged": [
+   [
+    "34530997",
+    "32550551",
+    "10.1016/j.gene.2019.100024"
+   ],
+   [
+    "22039938",
+    "6999658",
+    "10.1080/01652176.1980.9693775"
+   ],
+   [
+    "10379227",
+    "10037624",
+    "10.1136/bmj.318.7183.557"
+   ]
+  ],
+  "blocked_title_merges": {
+   "title_different_dois": 1577,
+   "title_year_gap": 20,
+   "title_pmid_conflict": 104
+  },
+  "unique_works_by_type": {
+   "paper": 17686,
+   "other": 4737,
+   "preprint": 859,
+   "patent": 757
+  },
+  "works_without_year": 16,
+  "possible_residual_duplicates_same_title_kept_separate": 579
+ },
+ "analysis_set": {
+  "definition": "journal papers (articles+reviews; no patents, preprints, theses, letters, editorials, news, errata, chapters) whose title names malaria AND vaccination, or that carry the MeSH heading \"Malaria Vaccines\"",
+  "papers_all_topics": 17686,
+  "papers_core_malaria_vaccine": 6580,
+  "papers_core_in_periods": 5237,
+  "core_by_period": {
+   "2000-2009": 1478,
+   "2010-2019": 2084,
+   "2020-2026": 1675
+  },
+  "core_by_year_2018_2026": {
+   "2018": 196,
+   "2019": 194,
+   "2020": 194,
+   "2021": 203,
+   "2022": 233,
+   "2023": 198,
+   "2024": 248,
+   "2025": 277,
+   "2026": 322
+  },
+  "core_outside_periods_or_no_year": 1343
+ },
+ "2_ssa_first_last_author": {
+  "2000-2009": {
+   "papers": 1478,
+   "first_known": 1269,
+   "first_known_pct": 85.9,
+   "first_ssa_n": 118,
+   "first_ssa_pct": 9.3,
+   "first_ssa_ci95": [
+    7.8,
+    11.0
+   ],
+   "first_ssa_pct_of_all_papers_lower_bound": 8.0,
+   "last_eligible_papers": 1204,
+   "last_known": 926,
+   "last_known_pct": 76.9,
+   "last_ssa_n": 66,
+   "last_ssa_pct": 7.1,
+   "last_ssa_ci95": [
+    5.6,
+    9.0
+   ]
+  },
+  "2010-2019": {
+   "papers": 2084,
+   "first_known": 1783,
+   "first_known_pct": 85.6,
+   "first_ssa_n": 191,
+   "first_ssa_pct": 10.7,
+   "first_ssa_ci95": [
+    9.4,
+    12.2
+   ],
+   "first_ssa_pct_of_all_papers_lower_bound": 9.2,
+   "last_eligible_papers": 1834,
+   "last_known": 1607,
+   "last_known_pct": 87.6,
+   "last_ssa_n": 136,
+   "last_ssa_pct": 8.5,
+   "last_ssa_ci95": [
+    7.2,
+    9.9
+   ]
+  },
+  "2020-2026": {
+   "papers": 1675,
+   "first_known": 1513,
+   "first_known_pct": 90.3,
+   "first_ssa_n": 386,
+   "first_ssa_pct": 25.5,
+   "first_ssa_ci95": [
+    23.4,
+    27.8
+   ],
+   "first_ssa_pct_of_all_papers_lower_bound": 23.0,
+   "last_eligible_papers": 1492,
+   "last_known": 1411,
+   "last_known_pct": 94.6,
+   "last_ssa_n": 327,
+   "last_ssa_pct": 23.2,
+   "last_ssa_ci95": [
+    21.0,
+    25.4
+   ]
+  },
+  "2000-2026 (all three periods)": {
+   "papers": 5237,
+   "first_known": 4565,
+   "first_known_pct": 87.2,
+   "first_ssa_n": 695,
+   "first_ssa_pct": 15.2,
+   "first_ssa_ci95": [
+    14.2,
+    16.3
+   ],
+   "first_ssa_pct_of_all_papers_lower_bound": 13.3,
+   "last_eligible_papers": 4530,
+   "last_known": 3944,
+   "last_known_pct": 87.1,
+   "last_ssa_n": 529,
+   "last_ssa_pct": 13.4,
+   "last_ssa_ci95": [
+    12.4,
+    14.5
+   ]
+  }
+ },
+ "3_income_group_first_author_FY25_classification": {
+  "2000-2009": {
+   "papers_with_known_country": 1269,
+   "Low income": {
+    "n": 37.3,
+    "pct": 2.9
+   },
+   "Lower middle income": {
+    "n": 110.3,
+    "pct": 8.7
+   },
+   "Upper middle income": {
+    "n": 182.8,
+    "pct": 14.4
+   },
+   "High income": {
+    "n": 937.1,
+    "pct": 73.8
+   },
+   "Unclassified": {
+    "n": 1.5,
+    "pct": 0.1
+   }
+  },
+  "2010-2019": {
+   "papers_with_known_country": 1783,
+   "Low income": {
+    "n": 52.3,
+    "pct": 2.9
+   },
+   "Lower middle income": {
+    "n": 182.3,
+    "pct": 10.2
+   },
+   "Upper middle income": {
+    "n": 246.2,
+    "pct": 13.8
+   },
+   "High income": {
+    "n": 1300.2,
+    "pct": 72.9
+   },
+   "Unclassified": {
+    "n": 2.0,
+    "pct": 0.1
+   }
+  },
+  "2020-2026": {
+   "papers_with_known_country": 1513,
+   "Low income": {
+    "n": 107.0,
+    "pct": 7.1
+   },
+   "Lower middle income": {
+    "n": 341.8,
+    "pct": 22.6
+   },
+   "Upper middle income": {
+    "n": 211.8,
+    "pct": 14.0
+   },
+   "High income": {
+    "n": 852.4,
+    "pct": 56.3
+   },
+   "Unclassified": {
+    "n": 0,
+    "pct": 0.0
+   }
+  },
+  "2000-2026 (all three periods)": {
+   "papers_with_known_country": 4565,
+   "Low income": {
+    "n": 196.6,
+    "pct": 4.3
+   },
+   "Lower middle income": {
+    "n": 634.4,
+    "pct": 13.9
+   },
+   "Upper middle income": {
+    "n": 640.8,
+    "pct": 14.0
+   },
+   "High income": {
+    "n": 3089.7,
+    "pct": 67.7
+   },
+   "Unclassified": {
+    "n": 3.5,
+    "pct": 0.1
+   }
+  }
+ },
+ "3b_income_group_first_author_classification_in_publication_year": {
+  "2000-2009": {
+   "papers_with_known_country": 1269,
+   "Low income": {
+    "n": 114.2,
+    "pct": 9.0
+   },
+   "Lower middle income": {
+    "n": 162.4,
+    "pct": 12.8
+   },
+   "Upper middle income": {
+    "n": 56.3,
+    "pct": 4.4
+   },
+   "High income": {
+    "n": 936.1,
+    "pct": 73.8
+   },
+   "Unclassified": {
+    "n": 0,
+    "pct": 0.0
+   }
+  },
+  "2010-2019": {
+   "papers_with_known_country": 1783,
+   "Low income": {
+    "n": 86.2,
+    "pct": 4.8
+   },
+   "Lower middle income": {
+    "n": 154.4,
+    "pct": 8.7
+   },
+   "Upper middle income": {
+    "n": 245.7,
+    "pct": 13.8
+   },
+   "High income": {
+    "n": 1296.7,
+    "pct": 72.7
+   },
+   "Unclassified": {
+    "n": 0,
+    "pct": 0.0
+   }
+  },
+  "2020-2026": {
+   "papers_with_known_country": 1513,
+   "Low income": {
+    "n": 107.0,
+    "pct": 7.1
+   },
+   "Lower middle income": {
+    "n": 366.2,
+    "pct": 24.2
+   },
+   "Upper middle income": {
+    "n": 187.3,
+    "pct": 12.4
+   },
+   "High income": {
+    "n": 852.4,
+    "pct": 56.3
+   },
+   "Unclassified": {
+    "n": 0,
+    "pct": 0.0
+   }
+  },
+  "2000-2026 (all three periods)": {
+   "papers_with_known_country": 4565,
+   "Low income": {
+    "n": 307.3,
+    "pct": 6.7
+   },
+   "Lower middle income": {
+    "n": 683.1,
+    "pct": 15.0
+   },
+   "Upper middle income": {
+    "n": 489.3,
+    "pct": 10.7
+   },
+   "High income": {
+    "n": 3085.2,
+    "pct": 67.6
+   },
+   "Unclassified": {
+    "n": 0,
+    "pct": 0.0
+   }
+  }
+ },
+ "top_first_author_countries_by_period": {
+  "2000-2009": {
+   "USA": 424.8,
+   "GBR": 138.1,
+   "AUS": 87.0,
+   "CHE": 67.1,
+   "COL": 58.8,
+   "CHN": 56.3,
+   "FRA": 49.4,
+   "IND": 44.2,
+   "BRA": 34.2,
+   "NLD": 32.2,
+   "DEU": 29.7,
+   "JPN": 26.8
+  },
+  "2010-2019": {
+   "USA": 493.7,
+   "GBR": 195.2,
+   "AUS": 126.5,
+   "DEU": 79.9,
+   "IND": 75.5,
+   "JPN": 69.0,
+   "CHN": 58.0,
+   "NLD": 55.6,
+   "COL": 54.0,
+   "CHE": 45.2,
+   "IRN": 40.5,
+   "DNK": 38.3
+  },
+  "2020-2026": {
+   "USA": 378.4,
+   "GBR": 107.9,
+   "NGA": 92.3,
+   "IND": 77.8,
+   "AUS": 62.0,
+   "CHN": 45.5,
+   "KEN": 44.1,
+   "NLD": 41.1,
+   "GHA": 38.8,
+   "DEU": 37.6,
+   "BRA": 36.5,
+   "JPN": 34.0
+  }
+ },
+ "top_ssa_first_author_countries_by_period": {
+  "2000-2009": {
+   "KEN": 25.3,
+   "TZA": 14.3,
+   "MLI": 12.5,
+   "MOZ": 8.8,
+   "GMB": 8.0,
+   "SEN": 4.0,
+   "BFA": 4.0,
+   "NGA": 3.5,
+   "GAB": 2.5,
+   "GHA": 2.5
+  },
+  "2010-2019": {
+   "KEN": 32.4,
+   "GHA": 19.5,
+   "BFA": 15.5,
+   "TZA": 14.4,
+   "MLI": 14.0,
+   "NGA": 10.5,
+   "SEN": 8.5,
+   "GAB": 8.3,
+   "MOZ": 6.3,
+   "UGA": 5.0
+  },
+  "2020-2026": {
+   "NGA": 92.3,
+   "KEN": 44.1,
+   "GHA": 38.8,
+   "UGA": 32.0,
+   "CMR": 26.0,
+   "TZA": 18.0,
+   "MLI": 15.6,
+   "BFA": 15.1,
+   "ZAF": 11.2,
+   "ETH": 10.0
+  }
+ },
+ "supplement_papers_with_any_ssa_based_author": {
+  "2000-2009": {
+   "papers_with_any_author_country": 1116,
+   "papers_with_ssa_author": 158,
+   "pct_of_papers_with_ssa_author": 14.2,
+   "first_ssa_pct": 63.9,
+   "last_ssa_pct": 47.5,
+   "both_first_and_last_ssa_pct": 37.4,
+   "first_ssa_but_last_not_pct": 23.7
+  },
+  "2010-2019": {
+   "papers_with_any_author_country": 1704,
+   "papers_with_ssa_author": 321,
+   "pct_of_papers_with_ssa_author": 18.8,
+   "first_ssa_pct": 57.8,
+   "last_ssa_pct": 44.3,
+   "both_first_and_last_ssa_pct": 35.5,
+   "first_ssa_but_last_not_pct": 20.7
+  },
+  "2020-2026": {
+   "papers_with_any_author_country": 1510,
+   "papers_with_ssa_author": 597,
+   "pct_of_papers_with_ssa_author": 39.5,
+   "first_ssa_pct": 65.5,
+   "last_ssa_pct": 59.4,
+   "both_first_and_last_ssa_pct": 49.8,
+   "first_ssa_but_last_not_pct": 13.3
+  }
+ },
+ "sensitivity_ssa_shares": {
+  "A_headline_core_set": {
+   "2000-2009": {
+    "papers": 1478,
+    "first_ssa_pct": 9.3,
+    "last_ssa_pct": 7.1,
+    "first_known": 1269,
+    "last_known": 926
+   },
+   "2010-2019": {
+    "papers": 2084,
+    "first_ssa_pct": 10.7,
+    "last_ssa_pct": 8.5,
+    "first_known": 1783,
+    "last_known": 1607
+   },
+   "2020-2026": {
+    "papers": 1675,
+    "first_ssa_pct": 25.5,
+    "last_ssa_pct": 23.2,
+    "first_known": 1513,
+    "last_known": 1411
+   }
+  },
+  "B_broader_topic_core_or_pubmed_abstract_mentions_both": {
+   "2000-2009": {
+    "papers": 2735,
+    "first_ssa_pct": 9.7,
+    "last_ssa_pct": 7.3,
+    "first_known": 2507,
+    "last_known": 1881
+   },
+   "2010-2019": {
+    "papers": 4182,
+    "first_ssa_pct": 11.2,
+    "last_ssa_pct": 8.8,
+    "first_known": 3847,
+    "last_known": 3504
+   },
+   "2020-2026": {
+    "papers": 3310,
+    "first_ssa_pct": 22.3,
+    "last_ssa_pct": 19.3,
+    "first_known": 3135,
+    "last_known": 2961
+   }
+  },
+  "C_all_papers_no_topic_filter": {
+   "2000-2009": {
+    "papers": 3720,
+    "first_ssa_pct": 9.5,
+    "last_ssa_pct": 7.6,
+    "first_known": 3006,
+    "last_known": 2172
+   },
+   "2010-2019": {
+    "papers": 5823,
+    "first_ssa_pct": 11.9,
+    "last_ssa_pct": 10.1,
+    "first_known": 4852,
+    "last_known": 4186
+   },
+   "2020-2026": {
+    "papers": 4867,
+    "first_ssa_pct": 23.9,
+    "last_ssa_pct": 21.3,
+    "first_known": 4216,
+    "last_known": 3843
+   }
+  },
+  "D_title_only_rule_same_for_all_sources": {
+   "2000-2009": {
+    "papers": 950,
+    "first_ssa_pct": 10.8,
+    "last_ssa_pct": 6.7,
+    "first_known": 769,
+    "last_known": 625
+   },
+   "2010-2019": {
+    "papers": 1498,
+    "first_ssa_pct": 13.0,
+    "last_ssa_pct": 10.3,
+    "first_known": 1228,
+    "last_known": 1124
+   },
+   "2020-2026": {
+    "papers": 1362,
+    "first_ssa_pct": 29.6,
+    "last_ssa_pct": 27.1,
+    "first_known": 1202,
+    "last_known": 1109
+   }
+  },
+  "E_pubmed_indexed_core_only": {
+   "2000-2009": {
+    "papers": 1261,
+    "first_ssa_pct": 9.2,
+    "last_ssa_pct": 7.1,
+    "first_known": 1216,
+    "last_known": 886
+   },
+   "2010-2019": {
+    "papers": 1691,
+    "first_ssa_pct": 10.3,
+    "last_ssa_pct": 7.9,
+    "first_known": 1636,
+    "last_known": 1493
+   },
+   "2020-2026": {
+    "papers": 1293,
+    "first_ssa_pct": 20.5,
+    "last_ssa_pct": 18.5,
+    "first_known": 1266,
+    "last_known": 1206
+   }
+  },
+  "F_strict_all_author_countries_in_ssa": {
+   "2000-2009": {
+    "papers": 1478,
+    "first_ssa_pct": 5.4,
+    "last_ssa_pct": 2.3,
+    "first_known": 1269,
+    "last_known": 926
+   },
+   "2010-2019": {
+    "papers": 2084,
+    "first_ssa_pct": 7.1,
+    "last_ssa_pct": 5.0,
+    "first_known": 1783,
+    "last_known": 1607
+   },
+   "2020-2026": {
+    "papers": 1675,
+    "first_ssa_pct": 21.9,
+    "last_ssa_pct": 18.4,
+    "first_known": 1513,
+    "last_known": 1411
+   }
+  },
+  "G_openalex_countries_only": {
+   "2000-2009": {
+    "papers": 1478,
+    "first_ssa_pct": 9.2,
+    "last_ssa_pct": 7.1,
+    "first_known": 1086,
+    "last_known": 926
+   },
+   "2010-2019": {
+    "papers": 2084,
+    "first_ssa_pct": 11.0,
+    "last_ssa_pct": 8.6,
+    "first_known": 1670,
+    "last_known": 1550
+   },
+   "2020-2026": {
+    "papers": 1675,
+    "first_ssa_pct": 25.5,
+    "last_ssa_pct": 22.9,
+    "first_known": 1443,
+    "last_known": 1350
+   }
+  },
+  "H_pubmed_affiliation_strings_only": {
+   "2000-2009": {
+    "papers": 1478,
+    "first_ssa_pct": 7.7,
+    "last_ssa_pct": 0.0,
+    "first_known": 1204,
+    "last_known": 1
+   },
+   "2010-2019": {
+    "papers": 2084,
+    "first_ssa_pct": 9.8,
+    "last_ssa_pct": 7.4,
+    "first_known": 1588,
+    "last_known": 865
+   },
+   "2020-2026": {
+    "papers": 1675,
+    "first_ssa_pct": 21.2,
+    "last_ssa_pct": 18.9,
+    "first_known": 1249,
+    "last_known": 1189
+   }
+  },
+  "I_sole_author_counts_as_last_author": {
+   "2000-2009": {
+    "papers": 1478,
+    "first_ssa_pct": 9.3,
+    "last_ssa_pct": 7.0,
+    "first_known": 1269,
+    "last_known": 1050
+   },
+   "2010-2019": {
+    "papers": 2084,
+    "first_ssa_pct": 10.7,
+    "last_ssa_pct": 8.3,
+    "first_known": 1783,
+    "last_known": 1701
+   },
+   "2020-2026": {
+    "papers": 1675,
+    "first_ssa_pct": 25.5,
+    "last_ssa_pct": 24.0,
+    "first_known": 1513,
+    "last_known": 1499
+   }
+  },
+  "J_excluding_2026_partial_year": {
+   "2000-2009": {
+    "papers": 1478,
+    "first_ssa_pct": 9.3,
+    "last_ssa_pct": 7.1,
+    "first_known": 1269,
+    "last_known": 926
+   },
+   "2010-2019": {
+    "papers": 2084,
+    "first_ssa_pct": 10.7,
+    "last_ssa_pct": 8.5,
+    "first_known": 1783,
+    "last_known": 1607
+   },
+   "2020-2026": {
+    "papers": 1353,
+    "first_ssa_pct": 21.7,
+    "last_ssa_pct": 19.4,
+    "first_known": 1229,
+    "last_known": 1149
+   }
+  },
+  "K_original_articles_only_openalex_type_not_review": {
+   "2000-2009": {
+    "papers": 1137,
+    "first_ssa_pct": 9.9,
+    "last_ssa_pct": 7.7,
+    "first_known": 954,
+    "last_known": 806
+   },
+   "2010-2019": {
+    "papers": 1685,
+    "first_ssa_pct": 11.7,
+    "last_ssa_pct": 9.3,
+    "first_known": 1413,
+    "last_known": 1316
+   },
+   "2020-2026": {
+    "papers": 1415,
+    "first_ssa_pct": 26.7,
+    "last_ssa_pct": 24.3,
+    "first_known": 1261,
+    "last_known": 1184
+   }
+  },
+  "L_year_from_openalex_instead_of_pubmed": {
+   "2000-2009": {
+    "papers": 1500,
+    "first_ssa_pct": 9.1,
+    "last_ssa_pct": 7.0,
+    "first_known": 1291,
+    "last_known": 946
+   },
+   "2010-2019": {
+    "papers": 2092,
+    "first_ssa_pct": 10.9,
+    "last_ssa_pct": 8.6,
+    "first_known": 1791,
+    "last_known": 1615
+   },
+   "2020-2026": {
+    "papers": 1646,
+    "first_ssa_pct": 25.7,
+    "last_ssa_pct": 23.4,
+    "first_known": 1484,
+    "last_known": 1383
+   }
+  }
+ },
+ "sensitivity_income_all_papers_no_topic_filter_FY25": {
+  "2000-2009": {
+   "papers_with_known_country": 3006,
+   "Low income": {
+    "n": 69.1,
+    "pct": 2.3
+   },
+   "Lower middle income": {
+    "n": 300.9,
+    "pct": 10.0
+   },
+   "Upper middle income": {
+    "n": 395.3,
+    "pct": 13.1
+   },
+   "High income": {
+    "n": 2234.7,
+    "pct": 74.3
+   },
+   "Unclassified": {
+    "n": 6.0,
+    "pct": 0.2
+   }
+  },
+  "2010-2019": {
+   "papers_with_known_country": 4852,
+   "Low income": {
+    "n": 161.4,
+    "pct": 3.3
+   },
+   "Lower middle income": {
+    "n": 633.0,
+    "pct": 13.0
+   },
+   "Upper middle income": {
+    "n": 700.1,
+    "pct": 14.4
+   },
+   "High income": {
+    "n": 3350.6,
+    "pct": 69.1
+   },
+   "Unclassified": {
+    "n": 6.8,
+    "pct": 0.1
+   }
+  },
+  "2020-2026": {
+   "papers_with_known_country": 4216,
+   "Low income": {
+    "n": 277.7,
+    "pct": 6.6
+   },
+   "Lower middle income": {
+    "n": 1081.3,
+    "pct": 25.6
+   },
+   "Upper middle income": {
+    "n": 706.9,
+    "pct": 16.8
+   },
+   "High income": {
+    "n": 2145.1,
+    "pct": 50.9
+   },
+   "Unclassified": {
+    "n": 5.0,
+    "pct": 0.1
+   }
+  },
+  "2000-2026 (all three periods)": {
+   "papers_with_known_country": 12074,
+   "Low income": {
+    "n": 508.3,
+    "pct": 4.2
+   },
+   "Lower middle income": {
+    "n": 2015.1,
+    "pct": 16.7
+   },
+   "Upper middle income": {
+    "n": 1802.3,
+    "pct": 14.9
+   },
+   "High income": {
+    "n": 7730.5,
+    "pct": 64.0
+   },
+   "Unclassified": {
+    "n": 17.8,
+    "pct": 0.1
+   }
+  }
+ },
+ "annual_core_2015_2026": {
+  "2015": {
+   "papers": 224,
+   "first_ssa_pct": 7.2,
+   "last_ssa_pct": 6.9
+  },
+  "2016": {
+   "papers": 202,
+   "first_ssa_pct": 13.3,
+   "last_ssa_pct": 10.7
+  },
+  "2017": {
+   "papers": 251,
+   "first_ssa_pct": 8.9,
+   "last_ssa_pct": 6.6
+  },
+  "2018": {
+   "papers": 196,
+   "first_ssa_pct": 14.0,
+   "last_ssa_pct": 9.4
+  },
+  "2019": {
+   "papers": 194,
+   "first_ssa_pct": 12.3,
+   "last_ssa_pct": 7.8
+  },
+  "2020": {
+   "papers": 194,
+   "first_ssa_pct": 11.9,
+   "last_ssa_pct": 7.8
+  },
+  "2021": {
+   "papers": 203,
+   "first_ssa_pct": 13.3,
+   "last_ssa_pct": 15.2
+  },
+  "2022": {
+   "papers": 233,
+   "first_ssa_pct": 18.3,
+   "last_ssa_pct": 14.4
+  },
+  "2023": {
+   "papers": 198,
+   "first_ssa_pct": 18.1,
+   "last_ssa_pct": 17.6
+  },
+  "2024": {
+   "papers": 248,
+   "first_ssa_pct": 24.4,
+   "last_ssa_pct": 22.0
+  },
+  "2025": {
+   "papers": 277,
+   "first_ssa_pct": 37.8,
+   "last_ssa_pct": 33.9
+  },
+  "2026": {
+   "papers": 322,
+   "first_ssa_pct": 41.9,
+   "last_ssa_pct": 39.7
+  }
+ },
+ "checks": {
+  "reference_tables": {
+   "class_economies": 218,
+   "ssa_economies": 48,
+   "class_vs_oghist_fy25_mismatches": [],
+   "oghist_parameters_sheet_says": "FY21 (stale; history table itself runs to FY25 and was used)"
+  },
+  "first_author_country_openalex_vs_pubmed": {
+   "n_both": 9419,
+   "same_country_set_pct": 93.9,
+   "overlap_pct": 99.2,
+   "ssa_flag_agree_pct": 98.6,
+   "openalex_ssa_pubmed_not": 83,
+   "pubmed_ssa_openalex_not": 48
+  },
+  "last_author_country_openalex_vs_pubmed": {
+   "n_both": 4430,
+   "ssa_flag_agree_pct": 99.5,
+   "openalex_ssa_pubmed_not": 8,
+   "pubmed_ssa_openalex_not": 15
+  },
+  "pubmed_affiliation_parser": {
+   "first_author_strings": 10667,
+   "parsed_pct": 97.1
+  },
+  "pubmed_has_last_author_affiliation_pct_by_period": {
+   "2000-2009": 0.2,
+   "2010-2019": 56.4,
+   "2020-2026": 97.5
+  },
+  "first_author_surname_openalex_vs_pubmed_agree_pct": {
+   "n": 10775,
+   "agree_pct": 97.3
+  },
+  "core_first_author_country_source": {
+   "2000-2009": {
+    "openalex": 1086,
+    "unknown": 209,
+    "pubmed": 183
+   },
+   "2010-2019": {
+    "openalex": 1670,
+    "unknown": 301,
+    "pubmed": 113
+   },
+   "2020-2026": {
+    "openalex": 1443,
+    "unknown": 162,
+    "pubmed": 70
+   }
+  },
+  "core_last_author_country_source": {
+   "2000-2009": {
+    "openalex": 926,
+    "unknown": 278
+   },
+   "2010-2019": {
+    "openalex": 1550,
+    "unknown": 227,
+    "pubmed": 57
+   },
+   "2020-2026": {
+    "openalex": 1350,
+    "unknown": 81,
+    "pubmed": 61
+   }
+  },
+  "periods_sum_to_total": true,
+  "income_shares_sum_to_100": {
+   "2000-2009": 99.9,
+   "2010-2019": 99.9,
+   "2020-2026": 100.0,
+   "2000-2026 (all three periods)": 100.0
+  },
+  "income_denominator_equals_first_known": true,
+  "year_source_core": {
+   "pubmed": 5233,
+   "openalex": 1242,
+   "europepmc": 105
+  },
+  "year_pubmed_vs_openalex_differs_pct_core": 8.6,
+  "multi_country_first_authors_core_pct": 7.3,
+  "single_author_core_papers_by_period": {
+   "2000-2009": 274,
+   "2010-2019": 250,
+   "2020-2026": 183
+  },
+  "recent_years_first_ssa_by_pubmed_indexing": {
+   "pubmed_indexed": {
+    "2019": {
+     "papers": 151,
+     "first_ssa_pct": 10.3
+    },
+    "2020": {
+     "papers": 165,
+     "first_ssa_pct": 11.0
+    },
+    "2021": {
+     "papers": 176,
+     "first_ssa_pct": 13.5
+    },
+    "2022": {
+     "papers": 203,
+     "first_ssa_pct": 16.4
+    },
+    "2023": {
+     "papers": 167,
+     "first_ssa_pct": 15.2
+    },
+    "2024": {
+     "papers": 198,
+     "first_ssa_pct": 22.4
+    },
+    "2025": {
+     "papers": 191,
+     "first_ssa_pct": 31.1
+    },
+    "2026": {
+     "papers": 193,
+     "first_ssa_pct": 30.9
+    }
+   },
+   "not_in_pubmed": {
+    "2019": {
+     "papers": 43,
+     "first_ssa_pct": 31.2
+    },
+    "2020": {
+     "papers": 29,
+     "first_ssa_pct": 23.1
+    },
+    "2021": {
+     "papers": 27,
+     "first_ssa_pct": 10.0
+    },
+    "2022": {
+     "papers": 30,
+     "first_ssa_pct": 38.9
+    },
+    "2023": {
+     "papers": 31,
+     "first_ssa_pct": 42.1
+    },
+    "2024": {
+     "papers": 50,
+     "first_ssa_pct": 36.4
+    },
+    "2025": {
+     "papers": 86,
+     "first_ssa_pct": 59.0
+    },
+    "2026": {
+     "papers": 129,
+     "first_ssa_pct": 64.5
+    }
+   },
+   "core_2025_2026_mesh_indexed_pct": 71.1,
+   "core_2015_2019_mesh_indexed_pct": 87.6
+  }
+ }
+}

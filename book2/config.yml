@@ -1,0 +1,25 @@
+# Let Science Data Speak — Book 2 companion pipeline: malaria vaccines
+project: malaria-vaccine-landscape
+email: you@example.org            # NCBI asks for a contact email; replace with yours
+openalex_api_key: ""              # set via environment variable OPENALEX_API_KEY
+run_date: "2026-11-10"
+
+pubmed:
+  term: >-
+    "Malaria Vaccines"[MeSH Terms] OR ((malaria[tiab] OR plasmodium[tiab])
+    AND (vaccine[tiab] OR vaccines[tiab] OR vaccination[tiab]
+    OR immunization[tiab] OR immunisation[tiab]))
+    OR "RTS,S"[tiab] OR "R21/Matrix-M"[tiab] OR Mosquirix[tiab]
+  first_year: 1950
+  last_year: 2026
+
+europepmc:
+  query: >-
+    (TITLE:(malaria OR plasmodium) OR ABSTRACT:(malaria OR plasmodium))
+    AND (TITLE:(vaccin* OR immuniz* OR immunis*) OR ABSTRACT:(vaccin* OR immuniz* OR immunis*))
+
+openalex:
+  title_abstract: >-
+    (malaria OR plasmodium) AND (vaccine OR vaccines OR vaccination
+    OR immunization OR immunisation)
+  products: '"RTS,S" OR mosquirix OR "R21/Matrix-M"'
