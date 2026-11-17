@@ -4,5 +4,6 @@ __pycache__/
 .env
 book2/data/checks/retraction_watch.csv
 !book2/logs/trap_catalogue_v3.csv
+!book2/logs/trap_catalogue_v4.csv
 !book2/data/checks/*.csv
 book2/data/checks/retraction_watch.csv
