@@ -52,3 +52,19 @@ bal = bal.join(fy)
 R.to_csv(OUT / "funding_did.csv", index=False); E.to_csv(OUT / "funding_event_study.csv", index=False); bal.to_csv(OUT / "funding_balance.csv")
 pd.set_option("display.width", 220)
 print(bal.round(2)); print(R.round(2).to_string(index=False)); print(E.round(2).to_string(index=False))
+
+# Sensitivity: supported researchers whose first funded paper had at most 20 authors (not one name among many)
+nauth = A.groupby("work").author.nunique()
+S2 = A[A.ssa]
+sens = []
+for f in ["EDCTP", "Gates"]:
+    fp = S2[S2[f]].sort_values("year").groupby("author").first()
+    small = set(fp.index[nauth.reindex(fp.work).values <= 20])
+    D = P[(P.funder == f) & P.match_id.isin(small)]
+    D = D.groupby(["match_id", "role", "e"], as_index=False).papers.mean()
+    keep = D.groupby("match_id").role.nunique(); D = D[D.match_id.isin(keep[keep == 2].index)]
+    d, pre, po = did(D, "papers")
+    b = [rng.choice(d.values, len(d)).mean() for _ in range(2000)]
+    sens.append({"funder": f, "start paper": "20 authors or fewer", "pairs": len(d), "did": d.mean(), "lo": np.percentile(b, 2.5), "hi": np.percentile(b, 97.5)})
+pd.DataFrame(sens).to_csv(OUT / "funding_did_small_teams.csv", index=False)
+print(pd.DataFrame(sens).round(2).to_string(index=False))
